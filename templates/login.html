@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login — WANDERMIND</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<style>
+:root{--saffron:#FF6B00;--gold:#F5A623;--navy:#0A1628;--navy-mid:#12233F;--glass:rgba(255,255,255,0.07);--glass-border:rgba(255,255,255,0.13);}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'DM Sans',sans-serif;background:var(--navy);color:#fff;min-height:100vh;display:flex;overflow:hidden;}
+.left{flex:1;position:relative;display:flex;flex-direction:column;justify-content:flex-end;padding:60px;background:linear-gradient(160deg,#0A1628 0%,#1A3A5C 50%,#0D2137 100%);overflow:hidden;}
+.left::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+.skyline{position:absolute;bottom:0;left:0;right:0;height:280px;opacity:.18;}
+.left-content{position:relative;z-index:2;}
+.left-content .brand{display:flex;align-items:center;gap:14px;margin-bottom:40px;}
+.left-content .brand .icon{width:56px;height:56px;background:linear-gradient(135deg,var(--saffron),var(--gold));border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:26px;}
+.left-content .brand span{font-family:'Playfair Display',serif;font-size:28px;font-weight:900;line-height:1;}
+.left-content .brand span em{display:block;color:var(--saffron);font-style:normal;}
+.left-content h2{font-family:'Playfair Display',serif;font-size:48px;font-weight:900;line-height:1.15;margin-bottom:20px;}
+.left-content h2 .highlight{color:var(--saffron);}
+.left-content p{color:rgba(255,255,255,.55);font-size:17px;line-height:1.7;max-width:400px;}
+.features{display:flex;flex-direction:column;gap:12px;margin-top:36px;}
+.feature{display:flex;align-items:center;gap:12px;color:rgba(255,255,255,.7);font-size:14px;}
+.feature i{color:var(--saffron);width:20px;text-align:center;}
+
+.right{width:460px;display:flex;align-items:center;justify-content:center;padding:40px;background:rgba(10,22,40,0.6);backdrop-filter:blur(20px);border-left:1px solid var(--glass-border);}
+.auth-box{width:100%;max-width:380px;}
+.auth-box h3{font-family:'Playfair Display',serif;font-size:28px;font-weight:700;margin-bottom:6px;}
+.auth-box .sub{color:rgba(255,255,255,.5);font-size:14px;margin-bottom:36px;}
+.form-group{margin-bottom:18px;}
+.form-group label{display:block;font-size:13px;font-weight:600;color:rgba(255,255,255,.7);margin-bottom:7px;letter-spacing:.3px;}
+.form-group .inp-wrap{position:relative;}
+.form-group .inp-wrap i{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.35);font-size:15px;}
+.form-group input{width:100%;padding:13px 14px 13px 42px;background:var(--glass);border:1px solid var(--glass-border);border-radius:11px;color:#fff;font-family:'DM Sans',sans-serif;font-size:15px;outline:none;transition:all .2s;}
+.form-group input::placeholder{color:rgba(255,255,255,.3);}
+.form-group input:focus{border-color:rgba(255,107,0,.5);background:rgba(255,255,255,.1);}
+.btn-submit{width:100%;padding:14px;background:linear-gradient(135deg,var(--saffron),#FF8C38);border:none;border-radius:11px;color:#fff;font-family:'DM Sans',sans-serif;font-size:16px;font-weight:700;cursor:pointer;transition:all .25s;margin-top:8px;letter-spacing:.3px;}
+.btn-submit:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(255,107,0,.45);}
+.error{background:rgba(255,80,80,.12);border:1px solid rgba(255,80,80,.3);border-radius:10px;padding:12px 16px;margin-bottom:20px;font-size:13.5px;color:#ff8080;display:flex;align-items:center;gap:8px;}
+.switch{text-align:center;margin-top:24px;color:rgba(255,255,255,.5);font-size:14px;}
+.switch a{color:var(--saffron);text-decoration:none;font-weight:600;}
+.hint{background:rgba(245,166,35,.08);border:1px solid rgba(245,166,35,.2);border-radius:8px;padding:10px 14px;margin-top:20px;font-size:12.5px;color:rgba(255,255,255,.6);}
+.hint strong{color:var(--gold);}
+</style>
+</head>
+<body>
+<div class="left">
+  <svg class="skyline" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+    <rect x="0" y="220" width="1200" height="60" fill="white"/>
+    <rect x="60" y="160" width="40" height="60" fill="white"/><rect x="50" y="180" width="60" height="40" fill="white"/>
+    <rect x="150" y="120" width="30" height="100" fill="white"/><rect x="140" y="140" width="50" height="80" fill="white"/>
+    <rect x="240" y="80" width="60" height="140" fill="white"/><rect x="260" y="60" width="20" height="20" fill="white"/>
+    <rect x="350" y="140" width="50" height="80" fill="white"/>
+    <rect x="460" y="100" width="70" height="120" fill="white"/><rect x="480" y="80" width="30" height="20" fill="white"/>
+    <rect x="580" y="60" width="40" height="160" fill="white"/><rect x="595" y="40" width="10" height="20" fill="white"/>
+    <rect x="670" y="130" width="55" height="90" fill="white"/>
+    <rect x="780" y="110" width="45" height="110" fill="white"/>
+    <rect x="880" y="150" width="60" height="70" fill="white"/>
+    <rect x="990" y="90" width="50" height="130" fill="white"/>
+    <rect x="1090" y="160" width="70" height="60" fill="white"/>
+  </svg>
+  <div class="left-content">
+    <div class="brand">
+      <div class="icon">🌊</div>
+      <span>WANDERMIND<em></em></span>
+    </div>
+    <h2>Discover the <span class="highlight">City of Dreams</span></h2>
+    <p>Your AI-powered gateway to Mumbai's vibrant culture, iconic landmarks, hidden gems and unforgettable experiences.</p>
+    <div class="features">
+      <div class="feature"><i class="fas fa-robot"></i>AI Tourism Chatbot — 24/7 local guide</div>
+      <div class="feature"><i class="fas fa-camera"></i>Snap & Identify — animals, flowers, landmarks</div>
+      <div class="feature"><i class="fas fa-map-marked-alt"></i>Interactive Map with navigation</div>
+      <div class="feature"><i class="fas fa-vr-cardboard"></i>360° Virtual tours of iconic places</div>
+    </div>
+  </div>
+</div>
+<div class="right">
+  <div class="auth-box">
+    <h3>Welcome Back 🙏</h3>
+    <p class="sub">Sign in to explore Mumbai</p>
+    {% if error %}<div class="error"><i class="fas fa-exclamation-circle"></i>{{ error }}</div>{% endif %}
+    <form method="POST">
+      <div class="form-group">
+        <label>Username</label>
+        <div class="inp-wrap"><i class="fas fa-user"></i><input type="text" name="username" placeholder="Enter username" required></div>
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <div class="inp-wrap"><i class="fas fa-lock"></i><input type="password" name="password" placeholder="Enter password" required></div>
+      </div>
+      <button type="submit" class="btn-submit">Sign In → Explore Mumbai</button>
+    </form>
+    <div class="switch">New here? <a href="/register">Create account</a></div>
+    <!-- <div class="hint">🔑 Demo login: <strong>demo</strong> / <strong>demo123</strong></div> -->
+  </div>
+</div>
+</body>
+</html>

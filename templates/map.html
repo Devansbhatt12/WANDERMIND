@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+{% block title %}Map — WANDERMIND{% endblock %}
+{% block extra_styles %}
+.map-layout{display:flex;height:calc(100vh - 64px);}
+.map-sidebar{width:320px;background:rgba(10,22,40,0.97);border-right:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;overflow:hidden;}
+.sidebar-top{padding:20px;border-bottom:1px solid rgba(255,255,255,.08);}
+.sidebar-top h2{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;margin-bottom:14px;}
+.search-box{position:relative;}
+.search-box input{width:100%;padding:11px 14px 11px 38px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:10px;color:white;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;}
+.search-box input::placeholder{color:rgba(255,255,255,.35);}
+.search-box i{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.35);}
+.filter-chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;}
+.filter-chip{padding:5px 12px;border-radius:16px;font-size:12px;border:1px solid rgba(255,255,255,.15);background:transparent;color:rgba(255,255,255,.6);cursor:pointer;transition:all .2s;}
+.filter-chip.active,.filter-chip:hover{background:rgba(255,107,0,.15);border-color:rgba(255,107,0,.4);color:var(--saffron);}
+.places-list{flex:1;overflow-y:auto;padding:12px;}
+.place-item{padding:14px 12px;border-radius:12px;cursor:pointer;transition:all .2s;margin-bottom:6px;border:1px solid transparent;}
+.place-item:hover,.place-item.active{background:rgba(255,107,0,.1);border-color:rgba(255,107,0,.25);}
+.place-item-head{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+.place-emoji{font-size:22px;}
+.place-item h4{font-size:14px;font-weight:700;flex:1;}
+.place-rating{font-size:12px;color:var(--gold);}
+.place-item p{font-size:12px;color:rgba(255,255,255,.5);line-height:1.5;margin-bottom:8px;}
+.nav-btn{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--saffron);background:rgba(255,107,0,.1);border:none;border-radius:6px;padding:5px 10px;cursor:pointer;transition:all .2s;}
+.nav-btn:hover{background:rgba(255,107,0,.25);}
+/* Map */
+.map-main{flex:1;position:relative;}
+#mapFrame{width:100%;height:100%;border:none;}
+.map-overlay{position:absolute;top:16px;right:16px;display:flex;flex-direction:column;gap:8px;}
+.map-btn{width:40px;height:40px;background:rgba(10,22,40,.9);border:1px solid rgba(255,255,255,.15);border-radius:10px;color:white;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;transition:all .2s;text-decoration:none;}
+.map-btn:hover{background:var(--saffron);}
+.info-panel{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(10,22,40,.98),rgba(10,22,40,.85));padding:20px 24px;transform:translateY(100%);transition:transform .35s;border-top:1px solid rgba(255,255,255,.1);}
+.info-panel.show{transform:translateY(0);}
+.info-panel-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;}
+.info-panel h3{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;}
+.info-panel-actions{display:flex;gap:10px;}
+@media(max-width:700px){.map-sidebar{display:none;}}
+{% endblock %}
+{% block content %}
+<div class="map-layout">
+  <div class="map-sidebar">
+    <div class="sidebar-top">
+      <h2>🗺️ Mumbai Map</h2>
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInp" placeholder="Search places..." oninput="filterPlaces(this.value)">
+      </div>
+      <div class="filter-chips">
+        <span class="filter-chip active" onclick="filterCat('All',this)">All</span>
+        <span class="filter-chip" onclick="filterCat('Monument',this)">🏛️ Monument</span>
+        <span class="filter-chip" onclick="filterCat('Beach',this)">🏖️ Beach</span>
+        <span class="filter-chip" onclick="filterCat('Religious',this)">🕌 Religious</span>
+        <span class="filter-chip" onclick="filterCat('Heritage',this)">🏺 Heritage</span>
+        <span class="filter-chip" onclick="filterCat('Landmark',this)">🌉 Landmark</span>
+      </div>
+    </div>
+    <div class="places-list" id="placesList"></div>
+  </div>
+
+  <div class="map-main">
+    <iframe id="mapFrame"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160984738!2d72.74109841017457!3d19.08259752837977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1716000000000!5m2!1sen!2sin"
+      allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <div class="map-overlay">
+      <a class="map-btn" href="https://maps.google.com/?q=Mumbai" target="_blank" title="Open in Google Maps">🗺️</a>
+      <button class="map-btn" onclick="myLocation()" title="My Location">📍</button>
+      <button class="map-btn" onclick="downloadMap()" title="Download Map">⬇️</button>
+    </div>
+
+    <div class="info-panel" id="infoPanel">
+      <div class="info-panel-head">
+        <div>
+          <h3 id="panelName">Place Name</h3>
+          <div style="color:rgba(255,255,255,.5);font-size:13px;margin-top:2px;" id="panelCat"></div>
+        </div>
+        <button onclick="closePanel()" style="background:none;border:none;color:rgba(255,255,255,.5);cursor:pointer;font-size:20px;">✕</button>
+      </div>
+      <p id="panelDesc" style="color:rgba(255,255,255,.65);font-size:14px;line-height:1.7;margin-bottom:14px;"></p>
+      <div class="info-panel-actions">
+        <a id="navLink" href="#" target="_blank" class="btn btn-primary"><i class="fas fa-directions"></i>Navigate</a>
+        <a id="panoLink" href="#" class="btn btn-ghost" style="display:none;"><i class="fas fa-vr-cardboard"></i>360° View</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+const places = {{ places|safe }};
+const panoPlaces = ['Gateway of India','Marine Drive','Elephanta Caves','Chhatrapati Shivaji Terminus','Bandra-Worli Sea Link'];
+const emojis = {Monument:'🏛️',Landmark:'🌉',Heritage:'🏺',Beach:'🏖️',Religious:'🕌',Shopping:'🛍️',Cultural:'🎨'};
+let currentCat = 'All';
+
+function renderPlaces(list){
+  const el = document.getElementById('placesList');
+  el.innerHTML = list.map(p => `
+    <div class="place-item" onclick="selectPlace(${p.id})" id="pi-${p.id}">
+      <div class="place-item-head">
+        <span class="place-emoji">${emojis[p.category]||'📍'}</span>
+        <h4>${p.name}</h4>
+        <span class="place-rating">★${p.rating}</span>
+      </div>
+      <p>${p.desc.substring(0,80)}...</p>
+      <button class="nav-btn" onclick="navigate(event,${p.lat},${p.lng},'${p.name}')"><i class="fas fa-directions"></i>Navigate</button>
+    </div>`).join('');
+}
+
+function filterPlaces(q){
+  let list = places;
+  if(currentCat!=='All') list=list.filter(p=>p.category===currentCat);
+  if(q) list=list.filter(p=>p.name.toLowerCase().includes(q.toLowerCase()));
+  renderPlaces(list);
+}
+
+function filterCat(cat,el){
+  currentCat=cat;
+  document.querySelectorAll('.filter-chip').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');
+  filterPlaces(document.getElementById('searchInp').value);
+}
+
+function selectPlace(id){
+  const p = places.find(x=>x.id===id);
+  document.querySelectorAll('.place-item').forEach(el=>el.classList.remove('active'));
+  document.getElementById('pi-'+id)?.classList.add('active');
+  document.getElementById('panelName').textContent = p.name;
+  document.getElementById('panelCat').textContent = `${emojis[p.category]||'📍'} ${p.category} · ★ ${p.rating}`;
+  document.getElementById('panelDesc').textContent = p.desc;
+  document.getElementById('navLink').href = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
+  document.getElementById('mapFrame').src = `https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d500!2d${p.lng}!3d${p.lat}!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s${encodeURIComponent(p.name)}!5e0!3m2!1sen!2sin!4v1716000000000`;
+  const panoEl = document.getElementById('panoLink');
+  if(panoPlaces.includes(p.name)){
+    panoEl.style.display='flex';panoEl.href=`/panorama/${encodeURIComponent(p.name)}`;
+  } else {panoEl.style.display='none';}
+  document.getElementById('infoPanel').classList.add('show');
+}
+
+function closePanel(){document.getElementById('infoPanel').classList.remove('show');}
+
+function navigate(e,lat,lng,name){
+  e.stopPropagation();
+  window.open(`https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&destination_place_id=${encodeURIComponent(name)}`,'_blank');
+}
+
+function myLocation(){
+  navigator.geolocation.getCurrentPosition(pos=>{
+    const {latitude:lat,longitude:lng}=pos.coords;
+    document.getElementById('mapFrame').src=`https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2000!2d${lng}!3d${lat}!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMy+Location!5e0!3m2!1sen!2sin!4v1716000000000`;
+  },()=>alert('Location access denied.'));
+}
+
+function downloadMap(){
+  const link=document.createElement('a');
+  link.href=`https://maps.googleapis.com/maps/api/staticmap?center=Mumbai,India&zoom=12&size=1280x720&markers=color:red%7C${places.map(p=>p.lat+','+p.lng).join('%7C')}&key=`;
+  link.download='mumbai-map.png';
+  // Open Google Maps PDF print version
+  window.open('https://www.google.com/maps/place/Mumbai/@19.0759837,72.8776559,12z','_blank');
+}
+
+renderPlaces(places);
+{% endblock %}

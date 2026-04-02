@@ -1,0 +1,1426 @@
+{
+  "metadata": {
+    "title": "Mumbai Tourism Chatbot Dataset",
+    "version": "1.0",
+    "total_pairs": 500,
+    "languages": [
+      "English",
+      "Hindi",
+      "Hinglish"
+    ],
+    "categories": [
+      "Places & Landmarks",
+      "Food & Restaurants",
+      "Transport & Getting Around",
+      "Shopping",
+      "Culture & Festivals",
+      "Practical Tips",
+      "Nightlife & Entertainment",
+      "Hidden Gems",
+      "Budget & Costs",
+      "Safety & Etiquette"
+    ]
+  },
+  "qa_pairs": [
+    {
+      "id": 1,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Gateway of India?",
+      "answer": "The Gateway of India is an iconic arch monument built in 1924 during the British Raj, located in Colaba, South Mumbai. It overlooks the Arabian Sea and was built to commemorate the visit of King George V and Queen Mary. It's Mumbai's most famous landmark and a must-visit! 🏛️"
+    },
+    {
+      "id": 2,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What are the best tourist places in Mumbai?",
+      "answer": "Mumbai's top tourist attractions include: Gateway of India, Marine Drive (Queen's Necklace), Elephanta Caves (UNESCO Heritage), CST Railway Station (UNESCO Heritage), Haji Ali Dargah, Siddhivinayak Temple, Juhu Beach, Colaba Causeway, Bandra-Worli Sea Link, and Dharavi. Each offers a unique experience of Mumbai's culture and history! 🌟"
+    },
+    {
+      "id": 3,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "How do I get to Elephanta Caves?",
+      "answer": "Take a ferry from the Gateway of India! Ferries run from 9 AM to 3:30 PM (last return at 5:30 PM). The ride takes about 1 hour each way. Entry fee: ₹40 for Indians, ₹650 for foreigners. The caves are closed on Mondays. Carry water and wear comfortable shoes — there's a lot of walking! ⛵"
+    },
+    {
+      "id": 4,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is Marine Drive famous for?",
+      "answer": "Marine Drive, also called the Queen's Necklace, is a 3.6 km C-shaped boulevard along the Arabian Sea in South Mumbai. It's famous for its stunning night view where the streetlights resemble a string of pearls (like a necklace). It's perfect for evening walks, watching sunsets, and enjoying the sea breeze. Free to visit, open 24/7! 🌊"
+    },
+    {
+      "id": 5,
+      "category": "Places & Landmarks",
+      "lang": "hi",
+      "question": "गेटवे ऑफ इंडिया कहाँ है?",
+      "answer": "गेटवे ऑफ इंडिया मुंबई के कोलाबा इलाके में स्थित है। यह अरब सागर के किनारे बना एक ऐतिहासिक मेहराब है जो 1924 में बनाया गया था। यहाँ तक पहुँचने के लिए आप टैक्सी, बस या मेट्रो से कोलाबा आ सकते हैं। प्रवेश निःशुल्क है! 🏛️"
+    },
+    {
+      "id": 6,
+      "category": "Places & Landmarks",
+      "lang": "hinglish",
+      "question": "Bhai Gateway of India pe jaane ka best time kya hai?",
+      "answer": "Bhai, early morning (6-9 AM) ya evening (5-7 PM) best hai! Afternoon mein bahut garmi aur bheed hoti hai. Sunday ko avoid karo agar ho sake — bahut rush hota hai. Monsoon mein bhi beautiful lagta hai but rain ke liye ready raho. Entry free hai! 📸"
+    },
+    {
+      "id": 7,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "Tell me about Haji Ali Dargah.",
+      "answer": "Haji Ali Dargah is a 15th-century mosque and dargah (shrine) dedicated to Saint Haji Ali Shah Bukhari, located on a tiny islet in the Arabian Sea, about 500m from the Worli coast. It's connected to the mainland by a narrow causeway. Best visited during low tide — during high tide the causeway gets submerged! Entry is free. Open 5:30 AM to 10 PM. 🕌"
+    },
+    {
+      "id": 8,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "Is Siddhivinayak Temple worth visiting?",
+      "answer": "Absolutely! Siddhivinayak Temple in Prabhadevi is one of Mumbai's most sacred and visited temples dedicated to Lord Ganesha. It's especially busy on Tuesdays. The temple is known for granting wishes — many Bollywood celebrities visit here. Darshan is free but expect long queues. Dress modestly and remove footwear before entering. 🙏"
+    },
+    {
+      "id": 9,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Bandra-Worli Sea Link?",
+      "answer": "The Bandra-Worli Sea Link (officially Rajiv Gandhi Sea Link) is a stunning 8-lane cable-stayed bridge spanning 5.6 km over Mahim Bay. It connects Bandra in the Western suburbs to Worli in South Mumbai, cutting travel time from 45 mins to just 7 mins! Best viewed at night when it's beautifully lit. Toll: ₹75 per trip. 🌉"
+    },
+    {
+      "id": 10,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What can I see at CST (Chhatrapati Shivaji Terminus)?",
+      "answer": "CST is a UNESCO World Heritage Site and one of the finest examples of Victorian Gothic architecture in India! Built in 1887, it's still a functioning railway station. You can admire the stunning facade with stone carvings, turrets, and a central dome. Photography is allowed outside. The Heritage Gallery inside showcases the station's history. Best viewed at dusk when it's lit up! 🚂"
+    },
+    {
+      "id": 11,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is Dharavi known for?",
+      "answer": "Dharavi is one of Asia's largest slums but also a thriving economic hub with a GDP of over $1 billion! It's known for its leather goods, pottery, recycling units, and textile industries. Responsible guided tours are available (₹500-1500) that support local communities. It's a deeply humbling and eye-opening experience that shows Mumbai's resilience. 🏙️"
+    },
+    {
+      "id": 12,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "How far is Juhu Beach from the city center?",
+      "answer": "Juhu Beach is about 26 km north of South Mumbai (Colaba area), roughly 45-60 minutes by road. It's accessible via the Western Railway line (Vile Parle or Santacruz station) or by taxi/auto. It's Mumbai's most famous beach, popular for street food, evening strolls, and occasional celebrity sightings! 🏖️"
+    },
+    {
+      "id": 13,
+      "category": "Places & Landmarks",
+      "lang": "hinglish",
+      "question": "Mumbai mein ek din mein kya kya dekh sakte hain?",
+      "answer": "Ek din ka perfect plan: Morning - Gateway of India aur Colaba Causeway, Lunch - Leopold Cafe ya Britannia, Afternoon - CST station dekho phir Churchgate walk, Evening - Marine Drive pe sunset, Dinner - Juhu Beach pe street food! Local train pakad lo — fast aur cheap hai. 🗺️"
+    },
+    {
+      "id": 14,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the best viewpoint in Mumbai?",
+      "answer": "Top viewpoints in Mumbai: 1) Marine Drive at night (sea view), 2) Bandra Fort for Sea Link + Bandra views, 3) Malabar Hill for panoramic city view, 4) Worli Sea Face, 5) Rooftop of Taj Mahal Palace Hotel (for guests). For highest point, visit the observation deck at One World Centre in BKC. 🌆"
+    },
+    {
+      "id": 15,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "Are there any UNESCO World Heritage sites in Mumbai?",
+      "answer": "Yes! Mumbai has two UNESCO World Heritage Sites: 1) Chhatrapati Shivaji Maharaj Terminus (CST) — Victorian Gothic railway station built in 1887, and 2) Elephanta Caves — ancient rock-cut cave temples dedicated to Lord Shiva, dating back to 5th-8th century AD. Both are absolute must-visits! 🏛️"
+    },
+    {
+      "id": 16,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is the must-try street food in Mumbai?",
+      "answer": "Mumbai's street food is legendary! Must-tries: 1) Vada Pav (Mumbai's burger) — ₹15-25, 2) Pav Bhaji at Juhu Beach, 3) Bhel Puri & Sev Puri at Chowpatty, 4) Pani Puri, 5) Misal Pav, 6) Keema Pav, 7) Frankie (Mumbai roll), 8) Ragda Pattice, 9) Tawa Pulao. Start with Vada Pav — it's the soul of Mumbai! 🍔"
+    },
+    {
+      "id": 17,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I get the best Vada Pav in Mumbai?",
+      "answer": "Best Vada Pav spots: 1) Ashok Vada Pav at Dadar station (legendary since 1966!), 2) Anand Vada Pav at Vile Parle, 3) Rajasthani Vada Pav near CST, 4) Kirti College Vada Pav in Dadar. Price: ₹15-30. Pro tip: ask for extra green chutney and garlic chutney! 🌶️"
+    },
+    {
+      "id": 18,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where is the best Pav Bhaji in Mumbai?",
+      "answer": "Top Pav Bhaji spots: 1) Juhu Beach stalls (must-do experience!), 2) Sardar Refreshments in Tardeo (famous since 1945), 3) Cannon Pav Bhaji near CST, 4) Chowpatty Beach. Price: ₹60-150. Pro tip: the butter-loaded version on the beach with sea view is an experience you won't forget! 🧈"
+    },
+    {
+      "id": 19,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What are the best Irani cafes in Mumbai?",
+      "answer": "Mumbai's Irani cafes are iconic! Top picks: 1) Britannia & Co. in Ballard Estate (famous for Berry Pulao, 100+ years old!), 2) Kyani & Co. near Marine Lines, 3) Sassanian Boulangerie in Dhobi Talao, 4) B. Merwan & Co. near Grant Road. These places serve bun maska, chai, and the best breakfast in Mumbai! ☕"
+    },
+    {
+      "id": 20,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I eat seafood in Mumbai?",
+      "answer": "Best seafood spots: 1) Trishna in Fort (famous for Butter Garlic Crab), 2) Gajalee in Vile Parle (Bombay Duck, Surmai), 3) Mahesh Lunch Home in Fort, 4) Koyla at Juhu, 5) Fresh fish at Sassoon Docks (morning only). Bombay Duck, Pomfret, and Tiger Prawns are local specialties. Budget: ₹500-2000 per person. 🦀"
+    },
+    {
+      "id": 21,
+      "category": "Food & Restaurants",
+      "lang": "hinglish",
+      "question": "Mumbai mein sasta aur best khana kahan milega?",
+      "answer": "Bhai saste mein best khana: 1) Dadar/CST ke aas paas street stalls — ₹20-50 mein vada pav, misal, 2) Dharavi ke local dhabas, 3) Mohammed Ali Road pe Ramadan food (agar season ho), 4) College canteens near Churchgate. ₹100-200 mein pet bhar ke khana milega! 😋"
+    },
+    {
+      "id": 22,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Bombay Duck?",
+      "answer": "Bombay Duck (Bombil in Marathi) is actually a type of fish, not a duck! It's a lizardfish found in Mumbai's coastal waters. It can be eaten fresh (fried or curried) or dried and salted. The dried version has a very pungent smell. Fried Bombay Duck is crispy, delicious, and a Mumbai specialty you must try at seafood restaurants! 🐟"
+    },
+    {
+      "id": 23,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where is Mohammed Ali Road and what's special about it?",
+      "answer": "Mohammed Ali Road is in South Mumbai near Bhendi Bazaar. It's famous for its amazing street food, especially during Ramadan (Ramzan) when it transforms into a massive food festival at night! Must-tries: Seekh Kebabs, Nalli Nihari, Phirni, Malpua, Shawarma, and Baida Roti. During Ramadan, the entire street is lit up and buzzing with energy from sunset to midnight! 🌙"
+    },
+    {
+      "id": 24,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Misal Pav?",
+      "answer": "Misal Pav is a spicy Maharashtrian breakfast dish — a spicy curry made of sprouted moth beans (matki), topped with farsan (crispy mixture), onions, lemon, and coriander, served with bread (pav). Best places: Aaswad near Shivaji Park, Cafe Madras in Matunga. Price: ₹60-120. Warning: it can be very spicy! 🌶️"
+    },
+    {
+      "id": 25,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Are there good vegetarian restaurants in Mumbai?",
+      "answer": "Mumbai is vegetarian-friendly! Top picks: 1) Soam near Babulnath Temple (Gujarati thali), 2) Rajdhani in multiple locations (unlimited thali), 3) Saraswati in Matunga (South Indian), 4) Swati Snacks near Tardeo, 5) Ram Ashraya in Matunga (100+ years old!). Jain food is also widely available. 🥗"
+    },
+    {
+      "id": 26,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I have a good breakfast in Mumbai?",
+      "answer": "Best breakfast spots: 1) B. Merwan & Co. near Grant Road for Mawa cake + chai, 2) Café Military in Fort for Akuri (Parsi scrambled eggs), 3) Kyani & Co. for bun maska + Irani chai, 4) Matunga's Udipi restaurants for Idli-Dosa, 5) Aaswad for Misal Pav. Mumbai breakfasts are legendary — don't skip! ☕"
+    },
+    {
+      "id": 27,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is the famous food at Chowpatty Beach?",
+      "answer": "Chowpatty Beach (Girgaon Chowpatty) is famous for: 1) Bhel Puri (puffed rice salad), 2) Sev Puri, 3) Pani Puri, 4) Pav Bhaji, 5) Kulfi, 6) Ice gola (flavoured crushed ice). The beach stalls are best visited in the evening. It's a classic Mumbai experience — eating chaat while watching the sea. Price: ₹30-100 per item. 🏖️"
+    },
+    {
+      "id": 28,
+      "category": "Food & Restaurants",
+      "lang": "hinglish",
+      "question": "Bhai Leopold Cafe kaisa hai?",
+      "answer": "Leopold Cafe Colaba mein hai, 1871 se chal raha hai! Yeh ek iconic tourist spot hai — Shantaram novel mein bhi famous hua. Yahan continental, Indian, Chinese sab milta hai. Biryani aur cold coffee achhi hai. Thoda expensive hai (₹300-600 per person) lekin ek baar jaane layak hai. 2008 Mumbai attacks mein bhi yahan attack hua tha — bullet marks abhi bhi hain walls pe. 🍺"
+    },
+    {
+      "id": 29,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I try authentic Maharashtrian food?",
+      "answer": "Best places for authentic Maharashtrian food: 1) Aaswad in Dadar (Misal, Modak, Puran Poli), 2) Panshikar near Thakurdwar (traditional Konkani), 3) Hotel Deluxe in Dadar, 4) Prakash Upaharagruh in Dadar, 5) Aaram Vada Pav stalls everywhere. Dishes to try: Ukdiche Modak, Sol Kadhi, Kombdi Vade, Zunka Bhakar. 🍛"
+    },
+    {
+      "id": 30,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is the best biryani in Mumbai?",
+      "answer": "Top biryani spots: 1) Jaffer Bhai's Delhi Darbar in Nagpada (legendary Mughal biryani), 2) Noorani Restaurant in Worli, 3) Café Noorani in Haji Ali, 4) Shalimar Hotel in Grant Road, 5) Bismillah Hotel near Mohammad Ali Road. Mumbai biryani has a unique Mughlai style. Price: ₹150-400. 🍚"
+    },
+    {
+      "id": 31,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I use Mumbai local trains?",
+      "answer": "Mumbai's local trains are the lifeline of the city! Buy a ticket at the station counter or use the UTS mobile app. There are 3 lines: Western, Central, and Harbour. Trains run from ~4 AM to midnight. Important: There are separate compartments for Ladies, General, and First Class. Rush hours (8-11 AM, 5-8 PM) are extremely crowded — avoid if possible! Fare: ₹5-30 depending on distance. 🚂"
+    },
+    {
+      "id": 32,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I get from the airport to the city?",
+      "answer": "From Mumbai Airport (Chhatrapati Shivaji Maharaj International Airport): 1) Metro Line 1 from Ghatkopar (nearest metro station, 2 km from airport) — cheapest option ₹10-40, 2) Pre-paid taxi from airport — ₹400-700 to South Mumbai, 3) Ola/Uber — ₹300-600, 4) BEST bus — cheapest but slow. The airport is in Andheri, about 30 km from South Mumbai (Colaba). ✈️"
+    },
+    {
+      "id": 33,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "Are autos available in Mumbai?",
+      "answer": "Auto-rickshaws operate only in the suburbs (north of Mahim/Sion boundary). They don't go to South Mumbai (Colaba, Fort, Marine Drive area). Meter starts at ₹21 and increases per km. Always insist on meter — never negotiate a fixed price (it's usually a rip-off). Ola/Uber Auto is a reliable alternative. 🛺"
+    },
+    {
+      "id": 34,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I get a taxi in Mumbai?",
+      "answer": "Options: 1) Ola/Uber — easiest, use app, fare shown upfront, 2) Kaali-Peeli taxis (black & yellow) — metered, available across Mumbai, starting fare ₹25, 3) AC taxis — for comfort, slightly higher fares. Avoid negotiating fixed fares with taxi drivers. For local areas, rickshaws (suburbs only) are cheaper. Mumbai taxis are safe and reliable! 🚕"
+    },
+    {
+      "id": 35,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "Is there a metro in Mumbai?",
+      "answer": "Yes! Mumbai Metro is expanding rapidly. Currently operational lines: Line 1 (Versova-Andheri-Ghatkopar), Line 2A (Dahisar-DN Nagar), Line 7 (Dahisar East-Andheri East). Many more lines under construction including the coastal line. Metro is AC, clean, and fast. Fare: ₹10-40. Get a Mumbai Metro card for convenience! 🚇"
+    },
+    {
+      "id": 36,
+      "category": "Transport & Getting Around",
+      "lang": "hinglish",
+      "question": "Bhai local train mein peak hours mein travel karna safe hai?",
+      "answer": "Bhai, peak hours (8-10 AM, 6-8 PM) mein local train mein bahut hi extreme bheed hoti hai — literally log dhekel ke andar jaate hain! Tourist ke liye suggest karunga: peak hours avoid karo, ladies compartment hai jo thoda safe aur kam crowded hota hai, first class ticket lo (thoda mehenga but comfortable). ₹45-100 first class mein milta hai. 🚂"
+    },
+    {
+      "id": 37,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I travel between Bandra and South Mumbai?",
+      "answer": "Options from Bandra to South Mumbai: 1) Bandra-Worli Sea Link + drive — fastest (~25 mins, toll ₹75), 2) Western Railway local train from Bandra to Churchgate (35-45 mins, ₹15-30), 3) Ola/Uber without Sea Link (45-60 mins, ₹200-350), 4) BEST bus — cheapest but slowest (60-90 mins). Sea Link route is the most scenic! 🌉"
+    },
+    {
+      "id": 38,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "Can I rent a bike or scooter in Mumbai?",
+      "answer": "Yes! Bike rentals are available in Mumbai: 1) Bounce/Yulu — app-based electric scooters in some areas, 2) Local rental shops in tourist areas (₹300-600/day), 3) Royal Enfield rentals for longer trips. Note: Mumbai traffic is chaotic — not recommended for first-timers. International Driving Permit required for foreigners. 🏍️"
+    },
+    {
+      "id": 39,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I get to Elephanta Island?",
+      "answer": "Take a ferry from Gateway of India! Ferry timings: 9 AM to 3:30 PM (every 30 mins). Duration: 1 hour each way. Return ferries: till 5:30 PM. Ticket price: ₹200-250 for a return trip (private operators). Once there, take the toy train (₹10) or walk (~10 mins) to the cave entrance. Caves entry fee: ₹40 Indians, ₹650 foreigners. Closed on Mondays! ⛵"
+    },
+    {
+      "id": 40,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "What is the BEST bus service in Mumbai?",
+      "answer": "BEST (Brihanmumbai Electric Supply and Transport) runs the city's bus network with 400+ routes across Mumbai. Fare starts at ₹7. Buy tickets inside the bus from the conductor. AC buses are also available at slightly higher fares. While slower than trains, buses cover areas that trains don't. Google Maps works well for finding routes! 🚌"
+    },
+    {
+      "id": 41,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "Where is the best shopping in Mumbai?",
+      "answer": "Best shopping areas: 1) Colaba Causeway — street shopping, antiques, clothes, ₹50-500, 2) Linking Road, Bandra — trendy fashion, ₹200-2000, 3) Fashion Street near CST — cheap clothes, 4) Crawford Market — fruits, spices, imported goods, 5) Dharavi — leather goods at factory prices, 6) Malls: Phoenix Palladium, Infiniti, Oberoi. 🛍️"
+    },
+    {
+      "id": 42,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "Where can I buy authentic Indian handicrafts in Mumbai?",
+      "answer": "Best for handicrafts: 1) Cottage Industries Exposition (Cottages) at Colaba — government store, fixed prices, wide variety, 2) Khadi Bhavan near Marine Lines — handloom, khadi products, 3) Central Cottage Industries at Juhu, 4) Crawford Market for spices and dry fruits. Prices are fixed and quality is guaranteed at government stores! 🎨"
+    },
+    {
+      "id": 43,
+      "category": "Shopping",
+      "lang": "hinglish",
+      "question": "Colaba Causeway mein bargaining kaise karein?",
+      "answer": "Bhai bargaining ke tips: Seller jo price bole uska 40-50% se start karo. 'Bhaiya, thoda kam karo' se start karo. Walk away karo — 90% baar woh roka lega. Group mein jaao aur ek sath zyada items lo — better deal milta hai. Subah 10-11 AM mein first customer ko discount milta hai ('pehli sale'). Max 60-70% tak neeche aa sakte hain usually! 🤝"
+    },
+    {
+      "id": 44,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "Where can I buy Bollywood merchandise in Mumbai?",
+      "answer": "For Bollywood stuff: 1) Film City tours in Goregaon, 2) Dharavi has some souvenir shops, 3) Tourist shops at Colaba Causeway, 4) Landmark bookstores for film books, 5) Online is honestly better for specific merchandise. Studio visits at Film City can be arranged through authorized tour operators! 🎬"
+    },
+    {
+      "id": 45,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "What are good souvenirs to buy from Mumbai?",
+      "answer": "Best Mumbai souvenirs: 1) Miniature Gateway of India / dabba models, 2) Warli art paintings (tribal art), 3) Bidriware handicrafts, 4) Maharashtrian sarees (Paithani, Narayan Peth), 5) Masala chai blends, 6) Kolhapuri chappals (leather sandals), 7) Mumbai Local Train keychains/fridge magnets, 8) Alphonso mango pickle! 🎁"
+    },
+    {
+      "id": 46,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is Ganesh Chaturthi and when does it happen?",
+      "answer": "Ganesh Chaturthi is Mumbai's biggest festival celebrating Lord Ganesha's birthday! It lasts 10 days, usually in August-September. Massive Ganesha idols are installed in homes and public pandals. On the last day (Anant Chaturdashi), there's a grand procession to immerse the idols in the sea. Lalbaugcha Raja is the most famous pandal — expect massive crowds! 🐘"
+    },
+    {
+      "id": 47,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "Tell me about Mumbai's Bollywood culture.",
+      "answer": "Mumbai is the home of Bollywood — the world's largest film industry! Film City in Goregaon is where most productions happen. You can spot stars at Juhu, Bandra, and Versova. Famous studios: Film City, Mehboob Studios, Tips Films. For Bollywood fans: visit Film City, Bandra (star bungalows), and Prithvi Theatre. The industry produces 200+ Hindi films per year! 🎬"
+    },
+    {
+      "id": 48,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the local language of Mumbai?",
+      "answer": "Mumbai is multilingual! The official language is Marathi. However, Hindi is widely spoken and understood. English is used in business and educated circles. You'll also hear Gujarati, Tamil, Malayalam, and even a unique Mumbai slang called 'Bambaiya Hindi' which mixes Hindi, Marathi, and English. Most locals understand basic English and Hindi. 🗣️"
+    },
+    {
+      "id": 49,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the Kala Ghoda Arts Festival?",
+      "answer": "Kala Ghoda Arts Festival is a 9-day annual festival held in February in the Kala Ghoda arts district in Fort, South Mumbai. It features visual arts, installations, music, dance, theatre, and street performances. It's free and open to all! The area itself has many galleries, cafes, and heritage buildings. One of Mumbai's most celebrated cultural events! 🎭"
+    },
+    {
+      "id": 50,
+      "category": "Culture & Festivals",
+      "lang": "hinglish",
+      "question": "Mumbai ka nightlife kaisa hai?",
+      "answer": "Mumbai ka nightlife India mein best hai! Bandra aur Lower Parel mein best clubs aur bars hain — Social, Aer (Four Seasons rooftop), Trilogy, Khar Social. Cover charge ₹500-2000. Alcohol ban nahi hai yahan. Pubs 1:30 AM tak open rehte hain. Ladies night Tuesday/Wednesday ko hoti hai. Uber ya Ola late night bhi available hota hai. Party on! 🎉"
+    },
+    {
+      "id": 51,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What is the best time to visit Mumbai?",
+      "answer": "Best time: November to February (winter) — pleasant weather, 18-28°C, perfect for sightseeing. October is also good. Avoid: June to September (monsoon) — heavy rains, flooding, very humid. However monsoon has its own charm — Elephanta Caves look magical in the mist! Summer (March-May) is hot and humid, 30-38°C. 🌤️"
+    },
+    {
+      "id": 52,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Is Mumbai safe for tourists?",
+      "answer": "Mumbai is generally one of India's safer cities for tourists. However: 1) Be careful of pickpockets in crowded areas, 2) Avoid deserted areas at night, 3) For women: avoid travelling alone late at night, prefer registered taxis/Ola/Uber, 4) Tap water is not safe — drink bottled water, 5) Don't flash expensive jewelry/gadgets. The city is very well-policed overall! 🛡️"
+    },
+    {
+      "id": 53,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What currency is used in Mumbai?",
+      "answer": "India's official currency is the Indian Rupee (INR/₹). Current approximate rates: 1 USD ≈ ₹83, 1 EUR ≈ ₹90. ATMs are widely available — use international debit/credit cards. Currency exchange counters at the airport, Thomas Cook, or banks. Avoid exchanging money with random street people. UPI (Google Pay, PhonePe) is widely accepted even at street stalls! 💰"
+    },
+    {
+      "id": 54,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Do I need a visa to visit Mumbai/India?",
+      "answer": "Most foreign nationals need a visa to visit India. The easiest option is the e-Visa (Tourist), applied online at indianvisaonline.gov.in — usually approved within 72 hours. Valid for 60 days, double entry. Cost: ~$25-80 depending on nationality. Citizens of Nepal and Bhutan don't need a visa. Check your country's specific requirements! ✈️"
+    },
+    {
+      "id": 55,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What should I pack for Mumbai?",
+      "answer": "Packing essentials for Mumbai: 1) Light cotton clothes (it's humid!), 2) Comfortable walking shoes, 3) Rain jacket/umbrella if visiting June-September, 4) Sunscreen and sunglasses, 5) Mosquito repellent for evenings, 6) Modest clothes for temples (cover shoulders and knees), 7) Power adapter (Type C/D/M plugs), 8) Portable charger — you'll need it! 👜"
+    },
+    {
+      "id": 56,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "How to get a local SIM card in Mumbai?",
+      "answer": "Get an Indian SIM at the airport or any telecom store. Best networks: Jio (cheapest, great data), Airtel (best coverage), Vi. Required: passport copy + photo + address proof (hotel booking works). Jio prepaid plans start at ₹179/28 days with unlimited calls + 1.5GB/day data. Activation usually takes 1-4 hours. Highly recommended for navigation! 📱"
+    },
+    {
+      "id": 57,
+      "category": "Practical Tips",
+      "lang": "hinglish",
+      "question": "Mumbai mein tourist hone ke naate kya dhyan rakhe?",
+      "answer": "Kuch important tips bhai: 1) Auto-rickshaw meter se chalwao, fix price mat karo, 2) Airport pe pre-paid taxi lo, random wale mat pakdo, 3) Tap water mat piyo, bottle lo, 4) Bheed mein pocket ka dhyan rakho, 5) Temple mein joote bahar utaro aur modest kapde pehno, 6) Ola/Uber use karo late night ke liye, 7) Bargaining chal sakti hai local markets mein! 🙏"
+    },
+    {
+      "id": 58,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What is the tipping culture in Mumbai?",
+      "answer": "Tipping in Mumbai: Restaurants — 10% tip is appreciated (usually not included in bill at local places), Hotels — ₹50-100 per bag for bellboys, Taxi/Auto — round up the meter fare, Tour guides — ₹200-500 per day, Street food — no tipping needed. Luxury restaurants may add 10% service charge automatically. 💵"
+    },
+    {
+      "id": 59,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Are there any cultural etiquette rules I should know?",
+      "answer": "Mumbai etiquette tips: 1) Remove shoes before entering temples and some homes, 2) Dress modestly at religious sites, 3) Ask before photographing people, 4) Left hand is considered unclean — use right hand for eating and giving/receiving things, 5) Public displays of affection are frowned upon, 6) Cow is sacred — don't disrespect, 7) Say 'Namaste' with folded hands as greeting! 🙏"
+    },
+    {
+      "id": 60,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What is the emergency number in Mumbai?",
+      "answer": "Emergency numbers in Mumbai: Police: 100, Ambulance: 108, Fire Brigade: 101, Women's Helpline: 1091, Tourist Helpline: 1800-111-363 (toll-free), Mumbai Traffic Police: 103. Save these in your phone! The nearest hospital to tourist areas is Bombay Hospital (Marine Lines) and St. George's Hospital (CST area). 🆘"
+    },
+    {
+      "id": 61,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "How much does it cost to visit Mumbai?",
+      "answer": "Budget estimate per day in Mumbai: Budget traveller: ₹1,500-2,500 (hostel ₹500-800, meals ₹300-500, transport ₹100-200), Mid-range: ₹3,000-6,000 (hotel ₹1,500-3,000, meals ₹800-1,500), Luxury: ₹10,000+ (5-star hotel, fine dining). Most tourist attractions are free or under ₹100 entry! 💰"
+    },
+    {
+      "id": 62,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "What are the free things to do in Mumbai?",
+      "answer": "Free things in Mumbai: 1) Marine Drive evening walk, 2) Juhu Beach sunset, 3) Gateway of India area, 4) Colaba Causeway browsing, 5) CST exterior photography, 6) Bandra Bandstand promenade, 7) Worli Sea Face, 8) Chowpatty Beach, 9) Dhobi Ghat viewpoint, 10) Hanging Gardens in Malabar Hill. Mumbai has tons of free experiences! 🎉"
+    },
+    {
+      "id": 63,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "What is the entry fee for major Mumbai attractions?",
+      "answer": "Entry fees: Gateway of India — Free, Elephanta Caves — ₹40 (Indians) / ₹650 (foreigners), CST Heritage Gallery — ₹25, Siddhivinayak Temple — Free, Haji Ali Dargah — Free, Chhatrapati Shivaji Museum (CSMVS) — ₹85 (Indians) / ₹500 (foreigners), Film City Tour — ₹900-1800 per person. Most beaches and viewpoints are free! 🎟️"
+    },
+    {
+      "id": 64,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "How much does accommodation cost in Mumbai?",
+      "answer": "Accommodation costs in Mumbai: Budget hostels: ₹400-800/night, Budget hotels: ₹800-2,000/night, Mid-range hotels: ₹2,000-5,000/night, Luxury hotels: ₹8,000-50,000/night. Best areas: Budget — Colaba, Fort; Mid-range — Bandra, Juhu; Luxury — Nariman Point, Juhu, BKC. Book in advance, especially Dec-Jan! 🏨"
+    },
+    {
+      "id": 65,
+      "category": "Budget & Costs",
+      "lang": "hinglish",
+      "question": "Mumbai mein ek din ka budget kitna chahiye?",
+      "answer": "Ek din ka realistic budget: Backpacker style — ₹800-1200 (hostel + street food + local train), Normal tourist — ₹2000-3500 (budget hotel + dhaba/restaurant + taxi), Comfortable — ₹5000-8000 (decent hotel + restaurant + Uber). Agar attractions ke entry fees aur shopping extra hogi. Street food mein ₹200-300 mein full din ka khana ho jaata hai! 💸"
+    },
+    {
+      "id": 66,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "What are the best bars in Mumbai?",
+      "answer": "Top bars in Mumbai: 1) Aer at Four Seasons Hotel, Worli (stunning rooftop views), 2) Woodside Inn, Colaba (cozy pub), 3) The Bar Stock Exchange, multiple locations (stock market-themed), 4) Social in Bandra/Lower Parel, 5) Toto's Garage in Bandra (iconic rock bar), 6) Khar Social. Budget: ₹500-2000 per person. 🍺"
+    },
+    {
+      "id": 67,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "Are there live music venues in Mumbai?",
+      "answer": "Yes! Mumbai's live music scene is vibrant: 1) Blue Frog (legacy venue for jazz/electronic), 2) Prithvi Theatre, Juhu (theatre + cafe with performances), 3) NCPA (National Centre for Performing Arts) — classical music, theatre, 4) AntiSocial in Khar for indie music, 5) Hard Rock Cafe, Andheri. Check insider.in for upcoming events! 🎵"
+    },
+    {
+      "id": 68,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "Where can I watch Bollywood movies in Mumbai?",
+      "answer": "Watch Bollywood in its home city! Top cinemas: 1) PVR and INOX multiplexes (everywhere), 2) Regal Cinema, Colaba (heritage single-screen, 1933!), 3) Metro Big Cinemas, Marine Lines, 4) Film City tours to see sets. Ticket prices: ₹150-500 for multiplexes. Book on BookMyShow app. Experience it in a packed Indian theatre for the full Bollywood atmosphere! 🎬"
+    },
+    {
+      "id": 69,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "What are good day trips from Mumbai?",
+      "answer": "Great day trips from Mumbai: 1) Lonavala (70 km) — hill station, waterfalls, chikki sweets, 2) Matheran (90 km) — car-free hill station, 3) Alibaug (ferry from Gateway) — beaches, 4) Pune (150 km) — 3-hour drive, amazing food and culture, 5) Nashik (165 km) — wine tours, Kumbh Mela, 6) Murud-Janjira (175 km) — sea fort. 🏔️"
+    },
+    {
+      "id": 70,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "What is the nightlife scene like in Bandra?",
+      "answer": "Bandra is Mumbai's hippest neighbourhood with the best nightlife! Hotspots: 1) Pali Hill area — boutique bars and restaurants, 2) Linking Road and Hill Road — street shopping till late, 3) Carter Road promenade — open-air cafes, 4) Chapel Road and St. Andrews area — pubs. Famous spots: Toto's Garage, Bonobo, The White Owl, Leaping Windows cafe. Most places open till 1:30 AM. 🌃"
+    },
+    {
+      "id": 71,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What are some hidden gems in Mumbai?",
+      "answer": "Mumbai's hidden gems: 1) Khotachiwadi — 200-year-old Portuguese village in Girgaon, 2) Banganga Tank — ancient sacred tank in Malabar Hill, 3) Chor Bazaar — antique bazaar with treasures, 4) Bhau Daji Lad Museum — oldest museum in Mumbai, 5) Kala Ghoda arts district, 6) Sassoon Dock at sunrise, 7) Sanjay Gandhi National Park inside the city! 💎"
+    },
+    {
+      "id": 72,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "Tell me about Khotachiwadi.",
+      "answer": "Khotachiwadi is a magical 200-year-old heritage village hidden inside the busy Girgaon area of South Mumbai! It's a cluster of 65+ East Indian and Goan Portuguese-style wooden cottages with beautiful verandahs, gardens, and old-world charm. It feels completely different from chaotic Mumbai. Free to visit, best explored on foot in the morning. A true hidden gem! 🏡"
+    },
+    {
+      "id": 73,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is Sanjay Gandhi National Park?",
+      "answer": "Sanjay Gandhi National Park is a 104 sq km forest right inside Mumbai! It's home to leopards, deer, crocodiles, 274 bird species, and the ancient Kanheri Caves. Entry: ₹53 (Indians), ₹ 530 (foreigners). Toy train rides, boat rides, and mini zoo inside. Open Tue-Sun, 7:30 AM - 6:30 PM. It's incredible that such a large forest exists within a megacity! 🐆"
+    },
+    {
+      "id": 74,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is Chor Bazaar?",
+      "answer": "Chor Bazaar (Thieves' Market) in Mutton Street, Bhendi Bazaar is Mumbai's famous antique market! You can find vintage items, old Bollywood posters, Victorian-era furniture, bronze statues, old clocks, gramophones, and tons of quirky stuff. Best visited on Fridays (biggest market day). Open 11 AM - 8 PM. Always bargain — prices can come down 50-70%! 🎭"
+    },
+    {
+      "id": 75,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "Tell me about Dhobi Ghat.",
+      "answer": "Dhobi Ghat is the world's largest open-air laundry, located near Mahalaxmi station. Around 200 washermen (dhobis) live and work here, washing clothes for Mumbai's hotels and hospitals in 1026 open wash pens! Best viewed from the bridge over Mahalaxmi station. Photography allowed. Early morning (7-9 AM) is most active. It's a uniquely Mumbai experience — a working living community! 👕"
+    },
+    {
+      "id": 76,
+      "category": "Safety & Etiquette",
+      "lang": "en",
+      "question": "Is Mumbai safe for solo female travellers?",
+      "answer": "Mumbai is relatively safe for solo female travellers compared to other Indian cities. Tips: 1) Use Ola/Uber with share your trip feature, 2) Avoid isolated areas at night, 3) Use ladies compartment in local trains, 4) Stay in well-reviewed hostels/hotels, 5) Dress modestly, 6) Trust your instincts, 7) Keep emergency numbers saved. Most locals are helpful. Daytime is generally very safe! 👩"
+    },
+    {
+      "id": 77,
+      "category": "Safety & Etiquette",
+      "lang": "en",
+      "question": "What should I not do in Mumbai?",
+      "answer": "Things to avoid in Mumbai: 1) Don't drink tap water, 2) Don't get into unlicensed taxis, 3) Don't exchange money with street touts, 4) Don't disrespect religious sites (remove shoes, dress modestly), 5) Don't litter (heavy fines!), 6) Don't photograph military/police installations, 7) Don't trust 'gem deals' from strangers — common scam, 8) Don't ignore traffic signals as pedestrian — look both ways! ⚠️"
+    },
+    {
+      "id": 78,
+      "category": "Safety & Etiquette",
+      "lang": "en",
+      "question": "Are there common tourist scams in Mumbai?",
+      "answer": "Common Mumbai scams to watch out for: 1) Taxi overcharging — always use meter or app, 2) Fake gems/antiques — don't buy expensive items from street touts, 3) 'My shop is nearby' — strangers guiding you to overpriced shops, 4) Fake tour guides at monuments, 5) Overpriced photo with snake charmers, 6) Fake police — real police don't randomly ask for passport on streets. Stay alert! 🚨"
+    },
+    {
+      "id": 79,
+      "category": "Safety & Etiquette",
+      "lang": "hinglish",
+      "question": "Mumbai mein kaise kapde pehne?",
+      "answer": "Mumbai mein kapdon ke liye: Normal places pe casual Indian ya western wear bilkul theek hai. Temples aur dargah mein — shoulders aur knees cover karo, ladies ke liye dupatta helpful hota hai. Beach pe — shorts aur tee shirts fine hain, swimwear beach tak hi. Raat ko clubs/bars ke liye — smart casual. Mumbai cosmopolitan city hai, koi judgemental nahi hota generally. 👗"
+    },
+    {
+      "id": 80,
+      "category": "Safety & Etiquette",
+      "lang": "en",
+      "question": "What is the drinking water situation in Mumbai?",
+      "answer": "Mumbai's tap water is actually one of India's cleanest municipal water supplies, but still not safe for tourists due to different gut bacteria. Always: 1) Drink bottled water (Kinley, Bisleri, Aquafina — ₹15-20 per litre), 2) Avoid ice in street food stalls, 3) Use bottled water for brushing teeth. In good restaurants, ice is usually safe. Stay hydrated — Mumbai is very humid! 💧"
+    },
+    {
+      "id": 81,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Chhatrapati Shivaji Maharaj Vastu Sangrahalaya?",
+      "answer": "CSMVS (formerly Prince of Wales Museum) is Mumbai's premier museum in Kala Ghoda, Fort. It houses 50,000+ artifacts across art, archaeology, and natural history. Highlights: Indus Valley artifacts, Mughal miniature paintings, European and Indian arms. Entry: ₹85 (Indians), ₹500 (foreigners). Closed Mondays. Audio guides available. A must-visit for history lovers! 🏛️"
+    },
+    {
+      "id": 82,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I try the Parsi food in Mumbai?",
+      "answer": "Mumbai has a significant Parsi community with unique cuisine! Best spots: 1) Britannia & Co., Ballard Estate — famous Berry Pulao and Chicken Dhansak, 2) Café Military, Fort, 3) Jimmy Boy, Fort — Parsi thali, 4) Rustom's Ice Cream, Churchgate. Must-try dishes: Dhansak, Patra ni Machhi, Sali Boti, Lagan nu Custard. Truly unique flavours you won't find elsewhere! 🍽️"
+    },
+    {
+      "id": 83,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I get from Mumbai to Goa?",
+      "answer": "Mumbai to Goa options: 1) Flight (cheapest if booked early) — 1 hr, ₹2,000-6,000, 2) Train (most scenic!) — Konkan Railway, 8-12 hrs, ₹300-2,000 depending on class, 3) Bus — AC Volvo, 14-16 hrs, ₹800-1,500, 4) Car — 10-11 hrs by NH66, beautiful coastal drive. Train is the most recommended for the stunning Konkan scenery! 🚂"
+    },
+    {
+      "id": 84,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the Navratri celebration like in Mumbai?",
+      "answer": "Navratri in Mumbai is a 9-night festival (October) where Gujaratis celebrate with Garba and Dandiya dance! Huge Garba events happen across the city — NESCO in Goregaon hosts massive events with thousands of people in traditional clothes dancing to live music. Tickets: ₹500-3,000. It's an incredible cultural experience — colorful clothes, music, and energy! 💃"
+    },
+    {
+      "id": 85,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What is the weather like in Mumbai in December?",
+      "answer": "December is one of the best months to visit Mumbai! Weather: 18-30°C, mostly sunny, low humidity, rarely any rain. Perfect for outdoor sightseeing and beach visits. It's peak tourist season so book accommodation in advance and expect slightly higher prices. Evenings are pleasantly cool (18-22°C). Pack light layers for evenings! 🌤️"
+    },
+    {
+      "id": 86,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "Tell me about Banganga Tank.",
+      "answer": "Banganga Tank is a sacred ancient tank (reservoir) in Walkeshwar, Malabar Hill — right in the middle of Mumbai's most expensive residential area! Dating back to the 12th century, it's surrounded by old Hindu temples and is considered holy by local residents. The contrast of ancient temples surrounded by modern high-rises is surreal. Free to visit, serene and peaceful! 🛕"
+    },
+    {
+      "id": 87,
+      "category": "Food & Restaurants",
+      "lang": "hinglish",
+      "question": "Bhai chai peene ki best jagah Mumbai mein?",
+      "answer": "Mumbai ki best chai: 1) Kyani & Co. (Irani chai — iconic!), 2) Chaayos — multiple locations (modern chai cafe), 3) Any tapri (roadside stall) — ₹8-15 ki mast chai milegi, 4) Cutting Chai at any local tapri — Mumbai ka signature, 5) B. Merwan for Irani chai + mawa cake combo. Tapri wali cutting chai ko beat karna mushkil hai honestly! ☕"
+    },
+    {
+      "id": 88,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "Is Uber/Ola reliable in Mumbai?",
+      "answer": "Yes, Ola and Uber are very reliable in Mumbai and highly recommended for tourists! Benefits: fixed price shown upfront, driver details and tracking available, multiple vehicle options (Auto, Mini, Sedan, SUV), cashless payment, 24/7 availability. Peak hours may have surge pricing. Both apps work well. Ola often has slightly better prices; Uber has more consistent quality. 📱"
+    },
+    {
+      "id": 89,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Nehru Planetarium in Mumbai?",
+      "answer": "Nehru Planetarium is located in Worli, near the Nehru Centre. It has sky shows explaining astronomy and space science, running multiple times a day in English and Hindi. Shows last about 45 minutes. Entry: ₹70-100. Great for families and science enthusiasts. The Nehru Centre complex also has an art gallery worth checking out! 🌌"
+    },
+    {
+      "id": 90,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the East Indian community in Mumbai?",
+      "answer": "East Indians are one of Mumbai's oldest Christian communities, descendants of people converted by the Portuguese in the 16th century. They live mainly in Bandra, Vasai, and Thane. Khotachiwadi heritage village in Girgaon shows their architectural legacy. They have a unique cuisine — bottle masala (a special spice mix) is their signature. A fascinating and often overlooked part of Mumbai's history! ⛪"
+    },
+    {
+      "id": 91,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Can I use Google Maps in Mumbai?",
+      "answer": "Yes! Google Maps works excellently in Mumbai for: walking directions, auto/taxi routes, local train timings and routes, bus routes, and traffic updates. It's the best navigation tool in the city. Get a local SIM with data for seamless navigation. Also try: Citymapper app for detailed local transport, and Mumbai Metro app for metro routes specifically. 📍"
+    },
+    {
+      "id": 92,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "What is the cheapest way to travel around Mumbai?",
+      "answer": "Cheapest ways to travel: 1) Local train — ₹5-30 per journey (fastest + cheapest for long distances), 2) BEST bus — ₹7-25, 3) Auto-rickshaw (suburbs only) — metered, affordable for short trips, 4) Walking — South Mumbai's attractions are often walkable. Avoid: Ola/Uber for short distances (minimum fare ₹50-80). A monthly local train pass is great value if staying long! 🚂"
+    },
+    {
+      "id": 93,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the best area to stay in Mumbai for tourists?",
+      "answer": "Best areas for tourists: 1) Colaba — closest to Gateway, Marine Drive, best for budget-mid range, 2) Fort/CST area — central, heritage, good connectivity, 3) Bandra — trendy, great food/nightlife, mid-range hotels, 4) Juhu — beach access, good hotels, near airport, 5) BKC — modern business hub, luxury hotels. First-timers should stay in Colaba or Fort for maximum convenience! 🏨"
+    },
+    {
+      "id": 94,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I get the best kulfi in Mumbai?",
+      "answer": "Best kulfi spots: 1) Badshah Cold Drink House, Crawford Market (since 1905!) — Falooda kulfi, 2) Giani's in Bandra and Juhu, 3) Natural Ice Cream, multiple locations (fruit flavours, no artificial ingredients), 4) Mumbai street stalls — traditional matka kulfi, 5) Rustom's Parsi Ice Cream, Churchgate. Natural Ice Cream's sitaphal (custard apple) flavour is legendary! 🍦"
+    },
+    {
+      "id": 95,
+      "category": "Safety & Etiquette",
+      "lang": "en",
+      "question": "What should I do if I get lost in Mumbai?",
+      "answer": "If lost in Mumbai: 1) Use Google Maps — works everywhere with data, 2) Ask a shopkeeper or police officer for directions (most are helpful), 3) Call your hotel for directions, 4) Book an Ola/Uber — driver will navigate for you, 5) Look for landmark street signs, 6) In emergency call Tourist Helpline: 1800-111-363 (free). Mumbai is safe to ask strangers for help — most people are genuinely helpful! 🗺️"
+    },
+    {
+      "id": 96,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "Are there any good comedy shows in Mumbai?",
+      "answer": "Mumbai is India's comedy capital! Top venues: 1) Canvas Laugh Club in Andheri — dedicated comedy club with regular shows, 2) The Comedy Store Mumbai, 3) Prithvi Theatre for experimental performances, 4) Various open mic nights across the city. Check BookMyShow app for upcoming shows. Comedians like Zakir Khan, Biswa Kalyan Rath often perform here. Tickets: ₹300-800. 😂"
+    },
+    {
+      "id": 97,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is the Sassoon Docks experience?",
+      "answer": "Sassoon Docks in Colaba is Mumbai's oldest and busiest fishing dock — a raw, authentic slice of Mumbai life! Visit between 5:30-8 AM to witness the morning fish auction where hundreds of fisherwomen sort and sell the night's catch. The colours, smells, and energy are incredible for photography. Bring your camera and rubber slippers — it's wet and busy! 📸"
+    },
+    {
+      "id": 98,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "Tell me about the Mumbai Marathon.",
+      "answer": "The Standard Chartered Mumbai Marathon is one of Asia's largest marathons and the world's richest! Held every January, it attracts 40,000+ runners including international elites. Categories: Full Marathon (42.2 km), Half Marathon, Dream Run (6 km), Senior Citizens Run. The route passes Gateway of India, Marine Drive, and the Sea Link. Registration opens months in advance. A huge city festival! 🏃"
+    },
+    {
+      "id": 99,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What hospitals are recommended in Mumbai for tourists?",
+      "answer": "Recommended hospitals for tourists: 1) Bombay Hospital, Marine Lines (near South Mumbai tourist areas), 2) Breach Candy Hospital, Breach Candy (best private hospital), 3) Lilavati Hospital, Bandra, 4) Kokilaben Dhirubhai Ambani Hospital, Andheri, 5) Jaslok Hospital, Peddar Road. All have English-speaking staff. Travel insurance is strongly recommended for medical coverage! 🏥"
+    },
+    {
+      "id": 100,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Is it easy to find vegetarian food in Mumbai?",
+      "answer": "Very easy! Mumbai is extremely vegetarian-friendly. Most restaurants have extensive vegetarian menus. Jain food (no onion/garlic) is also widely available. Street food is largely vegetarian — bhel, pani puri, vada pav, pav bhaji. Even non-veg restaurants always have vegetarian options. Look for 'Pure Veg' signs in green. Gujarati and South Indian restaurants are fully vegetarian. 🥗"
+    },
+    {
+      "id": 101,
+      "category": "Places & Landmarks",
+      "lang": "hinglish",
+      "question": "Worli Sea Face aur Marine Drive mein kya farak hai?",
+      "answer": "Dono beautiful sea promenades hain! Marine Drive (Nariman Point to Chowpatty) — more famous, longer (3.6 km), queen's necklace view at night, more crowded. Worli Sea Face — less touristy, Haji Ali ka view milta hai, aur Sea Link ka best view yahan se hota hai, quieter aur locals favourite hai. Dono free hain aur evening mein perfect hain. 🌊"
+    },
+    {
+      "id": 102,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Thalipeeth?",
+      "answer": "Thalipeeth is a traditional Maharashtrian multigrain flatbread made with a blend of roasted flours (bajra, jowar, rice, wheat, chickpea). It's nutritious, slightly crispy, and usually served with white butter or curd. You can find it at traditional Maharashtrian restaurants like Aaswad in Dadar and Aaram in various locations. A healthy, filling, and authentic Mumbai breakfast option! 🫓"
+    },
+    {
+      "id": 103,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How long does it take to travel across Mumbai?",
+      "answer": "Mumbai travel times vary wildly: Colaba to Bandra — 30 min by Sea Link, 60 min by train, 60-90 min by road. Colaba to Andheri (Airport) — 45-60 min by train, 60-90 min by road. Colaba to Borivali (northern suburbs) — 70-90 min by train. Mumbai is a long, narrow city (about 67 km north to south) so plan travel time carefully — especially in peak hours! 🗺️"
+    },
+    {
+      "id": 104,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "Where can I buy spices in Mumbai?",
+      "answer": "Best places for spices: 1) Crawford Market (Mahatma Jyotiba Phule Market) near CST — huge variety at wholesale prices, 2) Masjid Bunder spice market, 3) Badshah Cold Drink House area at Crawford Market. Look for: Garam Masala, Malvani Masala, Kolhapuri Masala, saffron from Kashmir, Alphonso mango pickle. Prices are much cheaper than tourist shops! 🌶️"
+    },
+    {
+      "id": 105,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the significance of the Lalbaugcha Raja?",
+      "answer": "Lalbaugcha Raja is Mumbai's most famous Ganesha idol during Ganesh Chaturthi, installed since 1934 in Lalbaug, Central Mumbai. It's known as the 'King of Lalbaug' and is famous for fulfilling devotees' wishes. During the 10-day festival, millions visit, with queues stretching 12-18 hours! The idol is elaborately decorated with gold and silver. The immersion procession on day 10 draws lakhs of people! 🐘"
+    },
+    {
+      "id": 106,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Can I use international credit cards in Mumbai?",
+      "answer": "Yes! Credit/debit cards are widely accepted in: malls, restaurants, hotels, supermarkets, and many mid-range shops. Visa and Mastercard are most accepted. However: 1) Street food stalls — cash or UPI only, 2) Local transport (trains, autos) — cash/UPI, 3) Some markets — prefer cash. Carry ₹500-1000 in cash for small purchases. ATMs are everywhere — use your bank's network to avoid extra fees! 💳"
+    },
+    {
+      "id": 107,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is the Prithvi Theatre?",
+      "answer": "Prithvi Theatre in Juhu is Mumbai's most beloved and intimate theatre, established in 1978 by the Kapoor family (yes, the Bollywood Kapoors!). It hosts the best Indian theatre, music performances, and open mic nights. The Prithvi Café outside is iconic for actors, writers, and artists. Tickets: ₹100-300. It's where Bollywood stars started their careers! A cultural institution worth visiting. 🎭"
+    },
+    {
+      "id": 108,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Sol Kadhi?",
+      "answer": "Sol Kadhi is a refreshing pink-coloured drink made from kokum (a sour fruit) and coconut milk, popular in Konkan/Goan cuisine. It's traditionally had as a digestive after a heavy Maharashtrian meal or as a cooling summer drink. You can find it at Goan and Maharashtrian restaurants in Mumbai. It's tangy, creamy, and utterly refreshing — try it! 🥤"
+    },
+    {
+      "id": 109,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Kanheri Caves?",
+      "answer": "Kanheri Caves are 109 rock-cut Buddhist caves inside Sanjay Gandhi National Park, dating from the 1st century BCE to 10th century CE! They were a major Buddhist learning center. Entry: ₹35 (Indians) + ₹53 national park entry. Open Tue-Sun, 7:30 AM - 5 PM. The caves have beautiful carvings and inscriptions. Plus you're inside a forest — might spot deer and peacocks! 🦚"
+    },
+    {
+      "id": 110,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What is the local time zone in Mumbai?",
+      "answer": "Mumbai follows Indian Standard Time (IST): UTC+5:30. India has a single time zone for the entire country. There's no daylight saving time in India. Sunrise in Mumbai: ~6:15-7 AM, Sunset: ~6:15-7:15 PM (varies by season). Shops typically open 10-11 AM, close 9-10 PM. Government offices: 9:30 AM - 5:30 PM, Mon-Sat. ⏰"
+    },
+    {
+      "id": 111,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I find good South Indian food in Mumbai?",
+      "answer": "Best South Indian in Mumbai: 1) Matunga area is called 'Mini Madras' — excellent Udipi restaurants like Ram Ashraya (100+ years old!) and Café Madras, 2) Saraswathi Restaurant in Matunga, 3) Ananda Bhavan, 4) Udupi chain restaurants across the city. Idli, Dosa, Vada, Rasam, Filter coffee — all authentic and excellent. Much cheaper than standalone restaurants too! 🥞"
+    },
+    {
+      "id": 112,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is Mumbai's connection to cricket?",
+      "answer": "Mumbai is India's cricket capital! The Wankhede Stadium in Churchgate is one of cricket's most iconic venues — India won the 2011 Cricket World Cup here! It seats 33,000 fans. Watching an IPL (Mumbai Indians) or test match here is a bucket-list experience. Tickets on BookMyShow. The city also produced legends like Sachin Tendulkar who played gully cricket in Bandra! 🏏"
+    },
+    {
+      "id": 113,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "Are there any heritage walks in Mumbai?",
+      "answer": "Yes! Heritage walks are one of the best ways to explore Mumbai: 1) Kala Ghoda Association walks — Fort heritage district, 2) Bombay Heritage Walks (private, ₹500-1000 per person), 3) Mumbai Magic Tours — various themed walks, 4) Free walks by INTACH on heritage days. Areas covered: Fort, Kala Ghoda, CST, Colaba, Bandra Bazar. Best in the morning (8-11 AM) before it gets hot! 🚶"
+    },
+    {
+      "id": 114,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "What are the best malls in Mumbai?",
+      "answer": "Best malls: 1) Phoenix Palladium, Lower Parel — luxury brands, best food court, 2) R City Mall, Ghatkopar — largest in Mumbai, 3) Infiniti Mall, Andheri — fun with entertainment zone, 4) High Street Phoenix, Lower Parel — mix of brands, 5) Palladium, Lower Parel — high-end shopping. Most malls open 11 AM - 10 PM, 7 days a week. Good for AC respite on hot days! 🛍️"
+    },
+    {
+      "id": 115,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "Are there budget hostels in Mumbai?",
+      "answer": "Yes! Budget hostels in Mumbai: 1) Backpacker Panda, Colaba (₹500-700/night, great location), 2) Zostel Mumbai in Bandra (₹600-900), 3) Abode Bombay, Colaba (₹700-1000), 4) The Hive, Bandra. Most have free WiFi, common areas, and kitchen access. Book on Hostelworld or Booking.com. Colaba area hostels are best for tourists — close to all major sights! 🏠"
+    },
+    {
+      "id": 116,
+      "category": "Places & Landmarks",
+      "lang": "hinglish",
+      "question": "Elephanta Caves ki trip mein kitna time lagta hai?",
+      "answer": "Full Elephanta trip mein plan karo 4-5 ghante: Ferry se jaao (1 hour), caves explore karo (1.5-2 hours), wapas ferry (1 hour), plus waiting time. Subah 9 AM ki ferry pakdo taaki bheed se pehle pohunch jao. Lunch wahan bhi milta hai (thoda mehenga) ya Gateway pe aate waqt kha lo. Monday ko band rehta hai, dhyan rahe! ⛵"
+    },
+    {
+      "id": 117,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Alphonso mango and when can I try it?",
+      "answer": "Alphonso (Hapus) mango is the 'King of Mangoes' and Mumbai/Maharashtra's pride! It's known for its rich, creamy, non-fibrous flesh and divine sweetness. Season: April to June (peak in May). Where to buy: Crawford Market, local fruit stalls, supermarkets. Price: ₹200-600 per dozen depending on grade. You can also try Alphonso milkshakes, ice cream, and aamras (mango pulp) in this season! 🥭"
+    },
+    {
+      "id": 118,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "How do I handle monsoon in Mumbai?",
+      "answer": "Surviving Mumbai monsoon (June-September): 1) Always carry a compact umbrella, 2) Wear flip-flops/waterproof footwear — leather shoes get ruined, 3) Expect flooding and traffic delays — add extra travel time, 4) Check weather apps for heavy rain warnings, 5) Avoid low-lying areas during heavy rain, 6) Carry a waterproof bag cover for your electronics, 7) The sea can be rough — avoid swimming. The city still functions and has its own monsoon charm! ☔"
+    },
+    {
+      "id": 119,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is Eid celebration like in Mumbai?",
+      "answer": "Eid ul-Fitr and Eid ul-Adha are celebrated with great enthusiasm in Mumbai! Mohammed Ali Road transforms into a food paradise with outdoor seating, lights, and hundreds of food stalls. Minara Masjid area is especially festive. The city's large Muslim community comes together for prayers at mosques, family gatherings, and food. The Ramzan night food festival at Mohammed Ali Road is a must-experience Mumbai event! 🌙"
+    },
+    {
+      "id": 120,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "Can I visit Film City Mumbai?",
+      "answer": "Yes! Film City in Goregaon is where most Bollywood TV shows and films are made. Guided tours are available through authorized agencies (₹900-2,000 per person). Tours last 2-3 hours and show you various sets, costume rooms, and sometimes live shooting. You might spot TV actors! Book tours through official Film City website or authorized agents at Andheri station. Not all areas are open to public. 🎬"
+    },
+    {
+      "id": 121,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is the difference between Mumbai and Delhi food?",
+      "answer": "Mumbai vs Delhi food: Mumbai — lighter, more seafood, street food culture (vada pav, bhel), Maharashtrian flavours, lots of coconut and tamarind. Delhi — heavier Mughal influence, richer gravies, more meat-centric, street food like chole bhature and paranthe. Mumbai has better chai; Delhi has better kebabs. Both are incredible — but as a tourist in Mumbai, stick to local specialties! 🍛"
+    },
+    {
+      "id": 122,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "Is there a hop-on hop-off bus in Mumbai?",
+      "answer": "Mumbai has a City Sightseeing bus (red double-decker) covering major tourist spots! Routes cover: Gateway of India, CST, Marine Drive, Haji Ali, Bandra Sea Link, Juhu, Film City. Tickets: ₹500-700 for 24 hours. Buy online at citysightseeingmumbai.com or from bus stops. Open-top deck offers great photo opportunities. Runs 9 AM to 9 PM. Great for first-time visitors! 🚌"
+    },
+    {
+      "id": 123,
+      "category": "Shopping",
+      "lang": "hinglish",
+      "question": "Bandra mein kahan shopping karein?",
+      "answer": "Bandra shopping ke liye: Linking Road — trendy street fashion, shoes, bags (₹200-1500), Hill Road — mix of everything, Pali Market — local veggie market + some shops, Carter Road area — cafes aur small boutiques. Mall ke liye Infiniti Mall Andheri kaafi paas hai. Bandra mein local designers ke bohot saare cute boutique stores bhi hain, explore karo! 🛍️"
+    },
+    {
+      "id": 124,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is the Hanging Gardens in Mumbai?",
+      "answer": "Hanging Gardens (Pherozeshah Mehta Gardens) is a terraced garden on Malabar Hill, built in 1881 over the city's main water reservoir. It features animal-shaped hedges and offers lovely views. Right next to it is Kamala Nehru Park with the famous 'Old Woman's Shoe' — a giant shoe-shaped slide beloved by children. Both offer panoramic views of Marine Drive and the sea. Entry: free! 🌿"
+    },
+    {
+      "id": 125,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What religious sites are important in Mumbai?",
+      "answer": "Major religious sites: Hindu — Siddhivinayak Temple (Ganesha), Mahalaxmi Temple, Walkeshwar Temple, Banganga Tank. Muslim — Haji Ali Dargah, Minara Masjid. Christian — St. Thomas Cathedral (Fort), Mount Mary Church (Bandra). Jain — Babu Amichand Panalal Adishwarji Jain Temple (Malabar Hill). Zoroastrian — Doongerwadi Fire Temple, Malabar Hill. All welcome respectful visitors! 🙏"
+    },
+    {
+      "id": 126,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is special about Bandra?",
+      "answer": "Bandra is called the 'Queen of Suburbs' and is Mumbai's most cosmopolitan neighbourhood! Famous for: Bollywood star residences (Shah Rukh Khan's Mannat, Salman Khan's Galaxy), Bandstand promenade, Bandra Fort (ruins with sea view), vibrant café culture, amazing food scene, nightlife, street art, and the best mix of old Portuguese churches and modern cool. It's a must-explore! ⭐"
+    },
+    {
+      "id": 127,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I eat good Chinese food in Mumbai?",
+      "answer": "Mumbai's Hakka Chinese (Indo-Chinese) is unique! Top spots: 1) Mainland China, multiple locations — authentic Chinese, 2) The China Garden, Kemps Corner — upscale, 3) Dakshin and Ling's Pavilion, Colaba — old-school Mumbai Chinese, 4) Chopsticks, multiple locations. Street-style Indo-Chinese at any local stall — Manchurian, Hakka Noodles, Spring Rolls — very popular and cheap (₹100-200). 🥡"
+    },
+    {
+      "id": 128,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is Diwali like in Mumbai?",
+      "answer": "Diwali (Festival of Lights) in Mumbai is magical! The entire city is decorated with diyas (oil lamps), lights, and rangoli. Shops, homes, and streets glow beautifully at night. Firecrackers (now partly restricted due to pollution), sweets exchange, and family gatherings are central. Crawford Market and local markets sell amazing Diwali goodies. Marine Drive at Diwali night is breathtaking! Usually October/November. 🪔"
+    },
+    {
+      "id": 129,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "Are there good rooftop restaurants in Mumbai?",
+      "answer": "Best rooftop dining in Mumbai: 1) Aer at Four Seasons, Worli — stunning views, cocktails, ₹2000+/person, 2) Asilo at St. Regis, Lower Parel — sea views, 3) Dome at Intercontinental, Marine Drive — sea-facing, 4) Nksha, Lower Parel — great city views, 5) AKA at The Lalit, Andheri — airport views. Budget options: Dome and Social rooftops are more affordable. 🌃"
+    },
+    {
+      "id": 130,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What apps should I download before visiting Mumbai?",
+      "answer": "Essential Mumbai apps: 1) Google Maps (navigation, local train routes), 2) Ola or Uber (transport), 3) Zomato or Swiggy (food discovery + delivery), 4) BookMyShow (events, movies, concerts), 5) UTS app (local train tickets), 6) IRCTC (long-distance train booking), 7) Paytm or PhonePe (UPI payments), 8) Insider.in (events and experiences). Download before you land! 📱"
+    },
+    {
+      "id": 131,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Mount Mary Church in Bandra?",
+      "answer": "Mount Mary Church (Basilica of Our Lady of the Mount) is a Roman Catholic church in Bandra dating to the 16th century (rebuilt in 1904). It's one of Mumbai's most beloved pilgrimage sites, overlooking the sea. The Bandra Fair (Feast of Mount Mary) in September draws hundreds of thousands of devotees of all faiths for 9 days! The church and surrounding hillside are beautiful any time of year. ⛪"
+    },
+    {
+      "id": 132,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "What is the cheapest way to experience Mumbai as a tourist?",
+      "answer": "Budget Mumbai experience: 1) Stay in a hostel in Colaba (₹500-700/night), 2) Eat only street food (₹200/day for all meals!), 3) Travel only by local train (₹30-50/day), 4) Visit only free attractions (Marine Drive, Gateway, beaches), 5) Do a free heritage walk. Total budget: ₹1000-1500 per day! Mumbai's best experiences — street food, sea views, local train — are either free or very cheap. 💸"
+    },
+    {
+      "id": 133,
+      "category": "Food & Restaurants",
+      "lang": "hinglish",
+      "question": "Bhai Juhu Beach pe kaun sa street food khaana chahiye?",
+      "answer": "Juhu Beach pe must try: Pav Bhaji (₹80-120) — especially at beachside stalls, Bhel Puri aur Sev Puri (₹50-80), Pani Puri (₹30-50), Ice Gola (₹30-50), Corn (bhuna hua, ₹30-50), Fresh coconut water (₹30-50). Shaam 5-8 PM best time hai — sunset ke saath khana + sea breeze = perfect Mumbai evening! Wallet mein cash rakho — UPI aur card nahi chalte sab jagah. 🌅"
+    },
+    {
+      "id": 134,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I get from Bandra to the Airport?",
+      "answer": "Bandra to Mumbai Airport (T2): 1) Ola/Uber — 20-30 mins, ₹150-250 (traffic dependent), 2) Auto-rickshaw — ₹80-120 metered, fastest for short distance, 3) Train — Western Railway to Andheri, then auto (total 40 mins, ₹50-80), 4) BEST bus — cheap but slow. Add 30-40 mins buffer in peak hours. For international flights, reach T2 at least 3 hours early. ✈️"
+    },
+    {
+      "id": 135,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the Elephanta Festival?",
+      "answer": "The Elephanta Festival is an annual classical dance and music festival held on Elephanta Island every February! Performances happen in front of the stunning rock-cut caves with dancers and musicians performing Bharatanatyam, Odissi, Kathak, and Hindustani music. It's organized by the Maharashtra Tourism Development Corporation. Boats are arranged from Gateway of India. A magical cultural experience! 🎭"
+    },
+    {
+      "id": 136,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Malabar Hill area like?",
+      "answer": "Malabar Hill is Mumbai's most exclusive and prestigious residential area, home to the Governor's residence (Raj Bhavan) and many billionaires. It has: Hanging Gardens, Banganga Tank, Pherozeshah Mehta Gardens, Kamala Nehru Park, and stunning sea views from multiple points. The Walkeshwar Temple complex is also here. A quiet contrast to busy Mumbai. Worth visiting for its tranquil gardens and heritage sites! 🌳"
+    },
+    {
+      "id": 137,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Chicken Dhansak?",
+      "answer": "Dhansak is a classic Parsi dish — a rich, flavourful curry combining mutton or chicken with lentils (dal) and a blend of spices. It's sweet, sour, and spicy all at once! Traditionally served with caramelized brown rice and kebabs. Best places: Britannia & Co., Jimmy Boy, Café Military. It's considered comfort food in Parsi households and is one of Mumbai's most unique culinary experiences. 🍛"
+    },
+    {
+      "id": 138,
+      "category": "Safety & Etiquette",
+      "lang": "en",
+      "question": "What should I know about bargaining in Mumbai?",
+      "answer": "Bargaining guide for Mumbai: DO bargain at: street markets (Colaba Causeway, Linking Road, Crawford Market), local clothes shops, and auto-rickshaws (though meter is standard). DON'T bargain at: malls, government emporiums (Cottage Industries), supermarkets, restaurants, medical shops. Start at 40-50% of asking price, be friendly, and be willing to walk away. Bargaining is expected and can be fun! 🤝"
+    },
+    {
+      "id": 139,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is the Global Vipassana Pagoda?",
+      "answer": "The Global Vipassana Pagoda is a stunning meditation hall and monument near Gorai, North Mumbai — one of the world's largest stone domes! It houses relics of Lord Buddha and can seat 8,000 meditators. Entry is free. You can meditate here or simply admire the architecture. To reach it: take a ferry from Marve Beach or Gorai Creek. A peaceful escape from urban chaos. 🏛️"
+    },
+    {
+      "id": 140,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What are the public holidays in Mumbai?",
+      "answer": "Major public holidays when Mumbai attractions and government offices may be closed or have reduced hours: Republic Day (Jan 26), Holi (March), Good Friday, Dr. Ambedkar Jayanti (Apr 14), Maharashtra Day (May 1), Independence Day (Aug 15), Diwali, Ganesh Chaturthi, Christmas (Dec 25), Eid, Gurunanak Jayanti. On Ganesh Chaturthi and Diwali, the city has a festive atmosphere — great time to visit! 📅"
+    },
+    {
+      "id": 141,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Worli Fort?",
+      "answer": "Worli Fort (also called Worli Sea Fort) is a small 17th-century Portuguese fortification on the Worli Sea Face, built between 1665-1675. It's not as well-known as Bandra Fort but offers a peaceful spot with great views of the Arabian Sea and the Bandra-Worli Sea Link. Entry is free. Best visited at sunset. A quiet and atmospheric spot away from tourist crowds! 🏰"
+    },
+    {
+      "id": 142,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I get the best cutting chai in Mumbai?",
+      "answer": "Cutting chai (half cup strong tea) is Mumbai's signature drink! Best spots: 1) Any tapri (roadside tea stall) near a train station — authentic experience, ₹8-15, 2) Chai pe Charcha near universities and offices, 3) Chaayos cafes (modern, multiple flavours), 4) Kyani & Co. for Irani chai, 5) College canteens. The best cutting chai is always from the most basic-looking tapri — never from fancy cafes! ☕"
+    },
+    {
+      "id": 143,
+      "category": "Culture & Festivals",
+      "lang": "hinglish",
+      "question": "Mumbai local log kya kya karte hain weekend mein?",
+      "answer": "Mumbai locals ka weekend: Subah — Marine Drive ya Juhu pe morning walk, Kissa local dhabas mein breakfast, Din mein — malls mein shopping ya ghar mein OTT, Shaam — Carter Road ya Bandstand promenade pe ghoomna, Dost ke ghar ya restaurant mein dinner, Ratko — Bandra ya Lower Parel ke pubs/bars. Basically bahut chill aur food-centric lifestyle hai Mumbaikars ki! 😄"
+    },
+    {
+      "id": 144,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is unique about the Fort area of Mumbai?",
+      "answer": "The Fort area (named after the original British fort) is South Mumbai's heritage heart! It has: Victorian-era Gothic buildings, art deco structures, the original Oval Maidan where colonial cricket was played, CSMVS Museum, the iconic Rajabai Clock Tower, Mumbai University buildings, and Elphinstone College. A free heritage walk here reveals Mumbai's British-era soul. Best explored on foot in the morning! 🏛️"
+    },
+    {
+      "id": 145,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "How much does a meal cost in Mumbai?",
+      "answer": "Meal costs in Mumbai: Street food (vada pav, bhel, pav bhaji) — ₹20-150, Local restaurant (thali, dal rice) — ₹80-200, Udipi/South Indian restaurant — ₹100-300, Mid-range restaurant — ₹300-700 per person, Fine dining — ₹1,000-3,000+ per person. A full day of eating street food costs under ₹300! Restaurant meals are also reasonably priced compared to most global cities. 🍴"
+    },
+    {
+      "id": 146,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Kheema Pav?",
+      "answer": "Kheema Pav is a beloved Mumbai breakfast/snack — spiced minced meat (mutton or chicken) cooked with onions, tomatoes, ginger-garlic, and aromatic spices, served with buttered pav (bread rolls). It's found at Irani cafes and local restaurants across the city. Best versions: Café Military (Fort), Kyani & Co. (Marine Lines). A filling and delicious non-vegetarian Mumbai classic! 🍞"
+    },
+    {
+      "id": 147,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do water taxis work in Mumbai?",
+      "answer": "Mumbai has introduced water taxis operating at select jetties! Routes connect points along the Mumbai coast. Book via the Water Taxi app or at jetty counters. Current routes include: Gateway of India to Mandwa, Ferry Wharf to Dharamtar. It's more scenic and can bypass road traffic. Fares: ₹150-500 depending on route. A unique and enjoyable way to travel! ⛵"
+    },
+    {
+      "id": 148,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "Where can I buy traditional Maharashtrian sarees?",
+      "answer": "Best for Maharashtrian sarees: 1) Paithani Sarees — available at government emporiums like Cottage Industries (Colaba) and Maharashtra Emporium (Nariman Point). Traditional Paithani from Paithan, Yeola Paithani (more affordable), 2) Narayan Peth sarees, 3) Kolhapuri silk, 4) Khadi Bhavan for handloom. Prices: ₹2,000-50,000+ for handwoven Paithani. These make excellent gifts! 👘"
+    },
+    {
+      "id": 149,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "What are good things to do in Mumbai at night?",
+      "answer": "Night activities in Mumbai: 1) Marine Drive walk at night (Queen's Necklace!), 2) Mohammed Ali Road food (Ramzan season), 3) Bandra bars and restaurants, 4) Night shows at NCPA or comedy clubs, 5) 24-hour eateries (Olympia in Colaba, Bademiyan for seekh kebabs), 6) Night drives across the Bandra-Worli Sea Link, 7) Juhu Beach evening snacks. Mumbai truly never sleeps! 🌙"
+    },
+    {
+      "id": 150,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "How much should I tip a tour guide in Mumbai?",
+      "answer": "Tipping tour guides in Mumbai: Private guided tour (half day) — ₹200-500, Full day private guide — ₹400-800, Group walking tour guide — ₹100-200 per person, Driver-guide for the day — ₹300-500. Tipping is not mandatory but greatly appreciated. For exceptional service, tip generously — most guides earn modest salaries. Always tip in cash directly to the person. 💵"
+    },
+    {
+      "id": 151,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Bandra Fort?",
+      "answer": "Bandra Fort (Castella de Aguada) is a Portuguese fort built in 1640 on a cliff in Bandra, overlooking the Arabian Sea and the Bandra-Worli Sea Link. Only ruins remain but the views are spectacular — especially at sunset! It's a popular photography spot and romantic hangout. Entry is free, open all day. The sea breeze and views of the Sea Link make it magical! 🏰"
+    },
+    {
+      "id": 152,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Frankie (Mumbai Roll)?",
+      "answer": "Frankie is Mumbai's iconic street roll — a paratha (flatbread) rolled around a filling of your choice: egg, chicken, mutton, paneer, or mixed vegetables with spices and chutneys. Tibb's Frankie is the original chain (since 1969!). Available everywhere from ₹50-150. It's Mumbai's answer to a wrap — spicy, satisfying, and perfect on the go. A must-try street food! 🌯"
+    },
+    {
+      "id": 153,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "Can I cycle in Mumbai?",
+      "answer": "Cycling in Mumbai is challenging but possible! Cycling-friendly areas: Bandra's Carter Road promenade, Worli Sea Face, MMRDA grounds in BKC, Powai Lake area. Yulu bike-share has cycles available in some areas. Dedicated cycling infrastructure is limited but growing. Avoid peak traffic for safety. Morning rides (6-8 AM) are best when roads are quieter. 🚴"
+    },
+    {
+      "id": 154,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the significance of Marine Drive on New Year's Eve?",
+      "answer": "Marine Drive on New Year's Eve is legendary! Hundreds of thousands of Mumbaikars gather along the promenade to celebrate the midnight countdown with fireworks, music, and revelry. The entire stretch from Nariman Point to Chowpatty is packed. The police create one-way traffic. It's one of India's biggest New Year celebrations. Arrive by 9 PM to get a good spot — it gets extremely crowded! 🎆"
+    },
+    {
+      "id": 155,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Is photography allowed at tourist sites in Mumbai?",
+      "answer": "Photography rules in Mumbai: Gateway of India — free photography allowed, Elephanta Caves — camera fee ₹25, CST interior — no photography, CSMVS Museum — ₹100 camera fee, Temples — generally no photography inside the sanctum, Dargahs — ask permission. Drone photography requires special permits everywhere. Always ask before photographing people, especially at Sassoon Docks and Dharavi. 📸"
+    },
+    {
+      "id": 156,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is Parel Village?",
+      "answer": "Parel (now Lower Parel) is a fascinating neighbourhood — once Mumbai's industrial heart with massive textile mills, it has transformed into the city's corporate and entertainment hub. The heritage textile mill compounds like Phoenix Mills, High Street Phoenix, and Indiabulls now house luxury malls and offices, but the old mill workers' chawls (tenement buildings) still exist alongside. A neighbourhood of fascinating contrasts! 🏭"
+    },
+    {
+      "id": 157,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "Where can I try the best Kebabs in Mumbai?",
+      "answer": "Best kebabs: 1) Bademiya, Colaba — legendary late-night kebab stall (Seekh, Chicken, Boti), open till 3 AM!, 2) Noorani Restaurant, Worli — Galouti and Seekh, 3) Jaffer Bhai's Delhi Darbar — Mughlai kebabs, 4) Mohammed Ali Road stalls during Ramadan, 5) Delhi Durbar, Khau Galli. Bademiya at midnight after a night out is a quintessential Mumbai experience! 🍢"
+    },
+    {
+      "id": 158,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "Where can I buy antiques in Mumbai?",
+      "answer": "Best antique shopping: 1) Chor Bazaar, Mutton Street — vintage furniture, old Bollywood posters, coins, clocks, 2) Thieves Market area in Bhendi Bazaar, 3) Phillips Antiques, Colaba — established dealer with genuine Victorian antiques, 4) Jehangir Art Gallery area for art. Always verify authenticity for high-value items. Chor Bazaar prices start cheap but high-quality pieces exist — know what you're looking for! 🗿"
+    },
+    {
+      "id": 159,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is Makar Sankranti like in Mumbai?",
+      "answer": "Makar Sankranti (mid-January) is celebrated in Mumbai with kite flying! Especially in Dadar, Shivaji Park, and open grounds across the city, the sky fills with colourful kites on this day. People eat tilgul (sesame and jaggery sweets) and exchange the greeting 'Tilgul ghya, god god bola' (take this sweet and speak sweetly). A joyful winter festival marking the end of winter! 🪁"
+    },
+    {
+      "id": 160,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "How much does street food cost in Mumbai?",
+      "answer": "Mumbai street food prices: Vada Pav — ₹15-30, Pav Bhaji — ₹70-150, Bhel/Sev Puri — ₹40-80, Pani Puri (6 pieces) — ₹30-60, Cutting Chai — ₹8-15, Samosa — ₹10-20, Frankie — ₹60-120, Ice Gola — ₹30-60, Coconut water — ₹30-50, Kulfi — ₹40-80. You can eat like a king for ₹150-200! Mumbai's street food is legendary and extremely affordable. 🍡"
+    },
+    {
+      "id": 161,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Oval Maidan in Mumbai?",
+      "answer": "The Oval Maidan is a historic cricket ground in the Fort area, surrounded by stunning Victorian and Art Deco buildings on one side and the Arabian Sea on another. Local cricket matches have been played here since the 1800s. On any evening or weekend morning, you'll find multiple cricket matches happening simultaneously — a beautiful, living slice of Mumbai's cricket culture. Free to watch! 🏏"
+    },
+    {
+      "id": 162,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is a Mumbai Thali?",
+      "answer": "A Mumbai thali is a complete meal on a large plate — typically includes: 2-3 vegetables (sabzi), dal, rice, roti/bhakri, papad, pickle, salad, and sweet (shrikhand or gulab jamun). Maharashtrian thalis often feature: Amti (tangy dal), Bhakri (jowar flatbread), Zunka (spiced chickpea flour), Solkadhi. Best places: Aaswad (Dadar), Hotel Mysore (Matunga). Unlimited refills usually! ₹120-300. 🍽️"
+    },
+    {
+      "id": 163,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I get from Pune to Mumbai?",
+      "answer": "Pune to Mumbai options: 1) Train (Deccan Queen, Shatabdi Express) — 3 hours, ₹200-800, departs Pune station, arrives Mumbai CST, 2) Volvo AC Bus — 3.5-4 hours, ₹500-800, multiple operators, 3) Private taxi — 3-4 hours (depends on traffic on Expressway), ₹2,000-3,500, 4) Drive yourself — Mumbai-Pune Expressway (94 km), toll ₹250. The Pune-Mumbai Expressway is a scenic drive! 🚗"
+    },
+    {
+      "id": 164,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What music is popular in Mumbai?",
+      "answer": "Mumbai's music scene: 1) Bollywood music dominates everywhere — from taxis to restaurants, 2) Indie/fusion scene growing in venues like AntiSocial and Bluefrog, 3) Classical Indian music at NCPA, 4) Ghazal performances in heritage venues, 5) EDM and Western music in clubs, 6) Traditional Lavani (Marathi folk dance-music) at cultural events. Mumbai's music landscape is as diverse as its population! 🎵"
+    },
+    {
+      "id": 165,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Are public toilets available in Mumbai?",
+      "answer": "Public toilets in Mumbai are available but quality varies: 1) Clean paid toilets (₹2-5) at major tourist spots, 2) Sulabh Shauchalaya at train stations, 3) Toilets inside malls, restaurants, and cafes (usually clean), 4) Ola/Uber drivers can stop at petrol stations. Apps like 'Google Maps' show nearby public toilets. For women especially — use mall or restaurant facilities. Carry tissues and hand sanitizer! 🚻"
+    },
+    {
+      "id": 166,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "What is Crawford Market famous for?",
+      "answer": "Crawford Market (Mahatma Jyotiba Phule Mandai) near CST is Mumbai's oldest and most famous wholesale market, built in 1869! It's known for: exotic fruits (Alphonso mangoes, imported fruits), vegetables, spices, dry fruits, flowers, and a pet market (birds, fish). The Victorian building with Norman frieze carvings is itself a heritage attraction. Go early morning (7-11 AM) for the freshest produce. 🍎"
+    },
+    {
+      "id": 167,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is the Worli Koliwada?",
+      "answer": "Worli Koliwada is a traditional fishing village (koliwada) tucked between high-rises in Worli, giving you a glimpse of Mumbai's original fisher-folk community (Kolis). The narrow lanes, painted boats, fishing nets, and small temples stand in stark contrast to the Bandra-Worli Sea Link visible overhead! Kolis are Mumbai's original inhabitants. Best visited in the morning. Entry free. 🐟"
+    },
+    {
+      "id": 168,
+      "category": "Food & Restaurants",
+      "lang": "hinglish",
+      "question": "Mumbai mein late night khaana kahan milega?",
+      "answer": "Late night khane ke options: 1) Bademiya, Colaba — 11 PM to 3 AM, best seekh kabab, 2) Badshah Cold Drink House, Crawford Market — late nights pe bhi open, 3) Hotel Deluxe, Dadar — 24 hours, 4) Café Leopold, Colaba — 1 AM tak, 5) Any petrol pump dhaba — raat ko bhi khana milta hai, 6) Olympia at Colaba — late night. Mumbai mein khaane ki koi kami nahi kabhi! 🌙"
+    },
+    {
+      "id": 169,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Rajabai Clock Tower?",
+      "answer": "The Rajabai Clock Tower is a stunning 85-meter Gothic clock tower built in 1878, located within Mumbai University's Fort campus. It was modeled on Big Ben in London and was once the tallest structure in Mumbai! The tower is surrounded by beautiful Gothic university buildings. It's best viewed from the Oval Maidan. Though you can't go inside, the exterior is breathtaking — especially at dusk. 🕰️"
+    },
+    {
+      "id": 170,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What is the population of Mumbai?",
+      "answer": "Mumbai is India's most populous city and one of the world's most densely populated urban areas. The city proper has about 12.5 million people, and the Greater Mumbai Metropolitan Region has about 20-21 million people. It's also India's financial capital — home to the BSE (Bombay Stock Exchange), RBI headquarters, and most major Indian corporations. A megacity in every sense! 🏙️"
+    },
+    {
+      "id": 171,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the Gudi Padwa festival?",
+      "answer": "Gudi Padwa is the Maharashtrian New Year, celebrated in March/April (first day of the Hindu month Chaitra). Homes display a Gudi — a bright yellow/green cloth tied to a stick with a pot on top — outside their windows or doors. There are processions, traditional food, and cultural events. Shivaji Park area in Dadar has a grand celebration. It's a beautiful and joyful festival! 🎋"
+    },
+    {
+      "id": 172,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "Is it safe to travel in Mumbai at night?",
+      "answer": "Mumbai is generally safe at night, especially: in busy areas like Colaba, Bandra, Lower Parel; using Ola/Uber (share trip feature with a contact); in well-lit streets and areas with people. Be more cautious in: isolated areas or dark alleys, deserted train stations after midnight, unfamiliar suburban areas. Women should prefer app cabs over autos/taxis late at night. Overall Mumbai is safer at night than most Indian cities. 🌃"
+    },
+    {
+      "id": 173,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Natural Ice Cream?",
+      "answer": "Natural Ice Cream is Mumbai's most beloved ice cream chain, founded in 1984 by Raghunandan Kamath! What makes it special: made with only real fruits — no artificial flavors or preservatives. Incredible fruit flavors: Sitaphal (custard apple), Alphonso Mango, Tender Coconut, Jackfruit, and 50+ seasonal flavors. Multiple locations across Mumbai. Price: ₹60-200. Queue at Juhu branch is always long — worth the wait! 🍦"
+    },
+    {
+      "id": 174,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is Shivaji Park famous for?",
+      "answer": "Shivaji Park in Dadar is Mumbai's most historic public ground! It's where Sachin Tendulkar learned cricket under coach Ramakant Achrekar. It hosted political rallies where Bal Thackeray addressed millions. The park is named after Chhatrapati Shivaji Maharaj and has his statue. Morning yoga, cricket nets, and jogging make it a vibrant community space. The area around it is quintessential Marathi Mumbai! 🏏"
+    },
+    {
+      "id": 175,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "What comedy shows should I watch in Mumbai?",
+      "answer": "Mumbai comedy scene is India's best! Top comedians based in/from Mumbai: Zakir Khan, Biswa Kalyan Rath, Rohan Joshi, Kanan Gill, Comicstaan alumni. Venues: Canvas Laugh Club (Andheri), The Comedy Store Mumbai, Prithvi Theatre. Open mic nights are free or low-cost at Social outlets, Khar Social, and various cafes. Check BookMyShow or Insider.in for upcoming shows. 😂"
+    },
+    {
+      "id": 176,
+      "category": "Budget & Costs",
+      "lang": "en",
+      "question": "Is Mumbai expensive compared to other Indian cities?",
+      "answer": "Mumbai is the most expensive Indian city for accommodation and real estate, but surprisingly affordable for food and transport! Accommodation costs 30-50% more than Pune or Delhi. Street food costs are similar across India. Local train travel is among India's cheapest. International tourists often find Mumbai cheaper than equivalent global cities. Budget well and you can have an amazing time without spending too much! 💰"
+    },
+    {
+      "id": 177,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the significance of the Arabian Sea to Mumbai?",
+      "answer": "The Arabian Sea is central to Mumbai's identity! The city is a peninsula surrounded by the sea on three sides. It shaped Mumbai as a trading port, brought waves of migrants (Portuguese, British, Parsi, Koli fishermen), and continues to define its character. Marine Drive, Juhu Beach, Worli Sea Face — all sea-facing. The monsoon brings the sea's fury; winter brings calm. The sea is Mumbai's soul! 🌊"
+    },
+    {
+      "id": 178,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Can I drink alcohol in Mumbai?",
+      "answer": "Yes, alcohol is legally available in Mumbai (unlike some Indian states). Alcohol is sold at: licensed restaurants and bars, wine shops (off-licences), duty-free at airport, supermarkets (in licensed stores). Legal drinking age: 25 years. Bars typically open 11 AM - 1:30 AM. Dry days: On certain national holidays and election days, alcohol sales are prohibited. Always carry ID! 🍺"
+    },
+    {
+      "id": 179,
+      "category": "Places & Landmarks",
+      "lang": "hinglish",
+      "question": "Bandra-Worli Sea Link pe drive karna kaisa lagta hai?",
+      "answer": "Bhai, Sea Link pe drive mera favourite experience hai Mumbai mein! 5.6 km ki cable-stayed bridge, dono taraf Arabian Sea, aur Mumbai ka skyline — ekdum cinematic feel aata hai. Raat mein aur bhi beautiful hota hai — puri bridge lit up hoti hai. Toll ₹75 hai. Best time: sunset ke waqt ya late night jab traffic kam ho. Ek baar zaroor karo! 🌉"
+    },
+    {
+      "id": 180,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Aamras?",
+      "answer": "Aamras is a thick, sweet mango pulp dessert made from Alphonso (Hapus) mangoes — a Maharashtra and Gujarat specialty! It's served chilled as a sweet dish alongside puris (fried bread) or as a dessert by itself. Available only during mango season (April-June). Best places: Soam Restaurant, Swati Snacks, any traditional Gujarati or Maharashtrian restaurant. An absolute summer treat! 🥭"
+    },
+    {
+      "id": 181,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Nehru Centre in Mumbai?",
+      "answer": "The Nehru Centre in Worli is a cultural complex with: the Discovery of India Exhibition (permanent exhibit on Indian history and culture), an art gallery, an amphitheatre, and the Nehru Planetarium. The Discovery of India show is particularly interesting for history lovers. Entry: ₹20-50. Open Tue-Sun, 11 AM - 7 PM. A quiet, educational experience away from the tourist rush! 🏛️"
+    },
+    {
+      "id": 182,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "Where can I buy books in Mumbai?",
+      "answer": "Best bookshops: 1) Strand Book Stall, Fort — Mumbai's beloved independent bookshop since 1948!, 2) Oxford Bookstore, multiple locations, 3) Crossword Bookstore, multiple locations, 4) Second-hand books at Flora Fountain pavement stalls (cheap!), 5) Kitab Khana, Fort — cozy independent bookshop with café. Strand Book Stall is a Mumbai institution — any book lover must visit! 📚"
+    },
+    {
+      "id": 183,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How do I go from Mumbai to Lonavala?",
+      "answer": "Mumbai to Lonavala (75 km): 1) Train — Central Railway from CST to Lonavala, 2 hours, ₹40-300, very scenic!, 2) Drive — via Mumbai-Pune Expressway, 90 mins, 3) Bus — MSRTC buses from Dadar or CSMT, ₹100-200. Lonavala is a popular hill station with waterfalls, Bhushi Dam, Lohagad Fort, and famous chikki (brittle candy). Perfect monsoon weekend getaway! 🏔️"
+    },
+    {
+      "id": 184,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the Prithvi Theatre Festival?",
+      "answer": "The Prithvi Theatre Festival is an annual week-long theatre festival held at Prithvi Theatre in Juhu every November! It brings together the best Hindi and English theatre from across India, with workshops, talks, and performances. Founded in the 1980s, it's one of India's most prestigious theatre festivals. Tickets are very affordable (₹100-300). A celebration of Indian theatre at its finest! 🎭"
+    },
+    {
+      "id": 185,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Is Mumbai good for solo travel?",
+      "answer": "Mumbai is excellent for solo travel! Pros: safe, easy public transport, tons of solo-friendly hostels, vibrant social scene, easy to meet people at cafes and bars, lots of solo activities (heritage walks, museum visits, beach walks). Cons: accommodation can be expensive for solo, city can feel overwhelming initially. Stay in Colaba for maximum convenience and social hostels for meeting fellow travelers. 🎒"
+    },
+    {
+      "id": 186,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is the best breakfast area in Mumbai?",
+      "answer": "Best breakfast neighbourhoods: 1) Matunga — South Indian breakfast paradise (Café Madras, Ram Ashraya), 2) Grant Road/Marine Lines — Irani cafes (B. Merwan, Kyani), 3) Dadar — Maharashtrian breakfast (Aaswad, Aaram), 4) Colaba — café options (Café Leopold, Mondegar), 5) Fort/Church area — Parsi cafes. Matunga is the most underrated foodie destination in all of Mumbai! 🍳"
+    },
+    {
+      "id": 187,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is the Magen David Synagogue?",
+      "answer": "The Magen David Synagogue in Byculla is a stunning blue synagogue built in 1861, one of the most beautiful in Asia! Mumbai once had a large Jewish community (Bene Israel, Baghdadi Jews) and several historic synagogues. Other notable ones: Sha'ar Harahamim in Mandvi, Keneseth Eliyahoo Synagogue in Fort. The Jewish community has largely emigrated to Israel but the heritage remains. Fascinating and rarely visited! 🕍"
+    },
+    {
+      "id": 188,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is Mumbai's art scene like?",
+      "answer": "Mumbai has India's most vibrant contemporary art scene! Key galleries: 1) Jehangir Art Gallery, Kala Ghoda (most famous, multiple exhibition rooms), 2) Gallery Chemould, Fort (58+ years old!), 3) CSMVS Museum, 4) The Bhau Daji Lad Museum, 5) Art Deco Mumbai (architecture itself is art!). The Kala Ghoda Arts Festival in February is the highlight. Street art is growing in Bandra and Dharavi! 🎨"
+    },
+    {
+      "id": 189,
+      "category": "Transport & Getting Around",
+      "lang": "en",
+      "question": "How early should I be at Mumbai Airport for international flights?",
+      "answer": "For international flights from Mumbai (CSMIA T2): arrive 3-3.5 hours before departure. Why: immigration can take 30-60 mins, security queue, boarding process. Allow extra time during: peak season (Dec-Jan), early morning slots (5-8 AM busiest), and if your hotel is in South Mumbai (60-90 mins from airport). Pre-book your airport taxi/Ola the night before! ✈️"
+    },
+    {
+      "id": 190,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "What is the Chowpatty Beach experience?",
+      "answer": "Girgaon Chowpatty Beach in South Mumbai is more about vibes than swimming (water quality isn't great for swimming). The experience: evening walks, children's rides, street food (bhel puri, pav bhaji), balloon sellers, pony rides for kids, and the backdrop of Marine Drive. During Ganesh Chaturthi, it's the main immersion point for thousands of Ganesha idols. Free, open 24/7, best at sunset! 🏖️"
+    },
+    {
+      "id": 191,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is Shrikhand?",
+      "answer": "Shrikhand is a creamy, thick, sweet yogurt dessert made by straining yogurt overnight and mixing with sugar and saffron (kesar), cardamom, and sometimes fruits. It's a Maharashtrian and Gujarati specialty. Served chilled, often with puris during festivals. Best at: Soam Restaurant, traditional Gujarati thali restaurants. You can also find mango shrikhand (amrakhand) which is even more popular! 🍮"
+    },
+    {
+      "id": 192,
+      "category": "Shopping",
+      "lang": "en",
+      "question": "Where can I buy leather goods in Mumbai?",
+      "answer": "Best for leather goods: 1) Dharavi — factory-direct leather prices, wallets, bags, belts (but need a guide to navigate), 2) Colaba Causeway — good selection of bags and belts, 3) Fashion Street near CST — affordable leatherette items, 4) Linking Road, Bandra — good quality bags. For premium leather: Hidesign stores (Indian luxury brand) at malls. Dharavi prices are 40-60% cheaper than retail shops! 👜"
+    },
+    {
+      "id": 193,
+      "category": "Nightlife & Entertainment",
+      "lang": "en",
+      "question": "What is the Kala Ghoda district?",
+      "answer": "Kala Ghoda (Black Horse) is Mumbai's premier arts district in South Mumbai, named after a historic black horse statue (now at Byculla Zoo). It houses: Jehangir Art Gallery, CSMVS Museum, the Asiatic Library, multiple cafes and restaurants, boutique design stores, and heritage Victorian buildings. The annual Kala Ghoda Arts Festival transforms the area every February. A must-stroll for culture lovers! 🐴"
+    },
+    {
+      "id": 194,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "How do locals stay cool in Mumbai's heat?",
+      "answer": "Mumbai heat survival tips from locals: 1) Coconut water from street vendors — best natural cooler, 2) Nimbu pani (lemon water) with salt and sugar, 3) Sol Kadhi (kokum coconut drink), 4) Stay indoors 12-3 PM (peak heat), 5) Cotton clothes only, 6) Wet wipes and a small towel, 7) Always carry a water bottle, 8) Use AC local trains and taxis when possible, 9) Natural Ice Cream for relief! ☀️"
+    },
+    {
+      "id": 195,
+      "category": "Food & Restaurants",
+      "lang": "en",
+      "question": "What is the food scene like in Fort area of Mumbai?",
+      "answer": "Fort has Mumbai's best old-school food scene! Highlights: 1) Britannia & Co. (Parsi classics), 2) Trishna (legendary seafood), 3) Cafe Military (Parsi breakfast), 4) Revival (multi-cuisine heritage restaurant), 5) Mahesh Lunch Home (seafood), 6) Multiple Udipi joints and Irani cafes. Lunch is the main meal culture here (many offices nearby). Great for authentic, non-touristy Mumbai food experiences! 🍽️"
+    },
+    {
+      "id": 196,
+      "category": "Places & Landmarks",
+      "lang": "en",
+      "question": "Tell me about the NCPA (National Centre for Performing Arts).",
+      "answer": "NCPA is India's premier performing arts venue, located on Nariman Point overlooking the Arabian Sea. It has multiple theatres including the famous Jamshed Bhabha Theatre. It hosts: classical Indian music, Western classical concerts, theatre, opera, dance, and jazz performances year-round. Tickets: ₹200-5,000. The NCPA Café overlooking the sea is lovely for coffee. India's Carnegie Hall! 🎶"
+    },
+    {
+      "id": 197,
+      "category": "Culture & Festivals",
+      "lang": "en",
+      "question": "What is the history of Bombay/Mumbai?",
+      "answer": "Mumbai's history: Originally 7 islands inhabited by the Koli fishing community. Portuguese captured it in 1534, calling it 'Bom Bahia' (Good Bay). Given to England as part of Catherine of Braganza's dowry in 1661, then leased to the East India Company. The company reclaimed the land connecting the 7 islands into one. It became India's commercial capital and was renamed Mumbai in 1995. 500 years of incredible history! 🏛️"
+    },
+    {
+      "id": 198,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "Are there ATMs available throughout Mumbai?",
+      "answer": "Yes, ATMs are extremely common in Mumbai! Every neighbourhood has multiple ATMs from SBI, HDFC, ICICI, Axis, and more. Works with most international Visa/Mastercard/Maestro cards. Withdrawal limit: ₹10,000-25,000 per transaction. Fee: some banks charge ₹150-250 for international card withdrawals (check with your bank). ATMs inside malls and hotels are generally safer and more reliable. 💳"
+    },
+    {
+      "id": 199,
+      "category": "Hidden Gems",
+      "lang": "en",
+      "question": "What is Veermata Jijabai Bhosale Udyan (Byculla Zoo)?",
+      "answer": "Byculla Zoo (Veermata Jijabai Bhosale Udyan) is Mumbai's only zoo and botanical garden, established in 1861 — one of India's oldest! It houses: the Bhau Daji Lad Museum (Mumbai's oldest museum with the original Kala Ghoda statue), a small zoo with animals, and beautiful gardens. Entry: ₹35 adults. The 19th-century museum building is itself stunning — worth the visit for architecture alone. Open Tue-Sun. 🦓"
+    },
+    {
+      "id": 200,
+      "category": "Practical Tips",
+      "lang": "en",
+      "question": "What is the best way to see Mumbai in 3 days?",
+      "answer": "3-Day Mumbai Itinerary: Day 1: Gateway of India → Elephanta Caves → Marine Drive sunset → Chowpatty dinner. Day 2: CST → Crawford Market → Dharavi tour → Mohammed Ali Road/Colaba Causeway → Bademiya late night. Day 3: Siddhivinayak Temple → Haji Ali → Sea Link drive → Juhu Beach → Bandra (Bandstand, Bandra Fort, cafes). This covers heritage, food, and Mumbai's soul! 🗺️"
+    }
+  ]
+}
